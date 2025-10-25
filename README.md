@@ -85,10 +85,10 @@ reg_kg/                      ← Project Root
 
 | Library | Purpose | Used In |
 |--------|---------|---------|
-| **PyMuPDF (`fitz`)** | High-performance PDF text + layout + image extraction | Epics 1 & 7 |
-| **spaCy** | NLP processing for entity and relation extraction | Epics 4 & 5 |
-| **rdflib** | RDF triple + ontology management for Knowledge Graphs | Epics 6 & 9 |
-| **pandas** | Tabular data manipulation (e.g., PDF tables → KG text) | Epics 7 & 8 |
+| **PyMuPDF (`fitz`)** | High-performance PDF text + layout + image extraction | Epics 1 |
+| **spaCy** | NLP processing for entity and relation extraction | Epics 2 |
+| **rdflib** | RDF triple + ontology management for Knowledge Graphs | Epics 2 |
+| **pandas** | Tabular data manipulation (e.g., PDF tables → KG text) |  |
 | **Typer** | CLI orchestration | Project-wide |
 | **JupyterLab** | Experimental analysis environment | `/notebooks` |
 | **pytest** | Test automation | `/tests` |
