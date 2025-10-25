@@ -1,0 +1,16 @@
+name: reg_kg_env
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.10
+  - pip
+  - jupyterlab     # For experiments
+  - pandas         # For table manipulation
+  - pytest         # For testing our code
+  - rdflib         # The core Knowledge Graph library
+  - spacy          # The core NLP library
+  - typer          # For our "Control Panel" CLI
+  - pip:
+    - pymupdf      # The core PDF parsing library
+    - spacy-lookups-data # Required for spaCy lemmatization
