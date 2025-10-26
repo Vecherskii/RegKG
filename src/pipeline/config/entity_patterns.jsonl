@@ -1,0 +1,60 @@
+{"label": "RISK_TYPE", "pattern": "IRRBB"}
+{"label": "RISK_TYPE", "pattern": "Interest rate risk in the banking book"}
+{"label": "RISK_TYPE", "pattern": [{"LOWER": "interest"}, {"LOWER": "rate"}, {"LOWER": "risk"}]}
+{"label": "RISK_TYPE", "pattern": "CSRBB"}
+{"label": "RISK_TYPE", "pattern": [{"LOWER": "credit"}, {"LOWER": "spread"}, {"LOWER": "risk"}]}
+{"label": "RISK_TYPE", "pattern": "Gap risk"}
+{"label": "RISK_TYPE", "pattern": "Basis risk"}
+{"label": "RISK_TYPE", "pattern": "Option risk"}
+{"label": "RISK_TYPE", "pattern": "market risk"}
+{"label": "RISK_TYPE", "pattern": "liquidity risk"}
+{"label": "RISK_TYPE", "pattern": "credit risk"}
+{"label": "RISK_TYPE", "pattern": "operational risk"}
+{"label": "REGULATOR", "pattern": "BCBS"}
+{"label": "REGULATOR", "pattern": "Basel Committee"}
+{"label": "REGULATOR", "pattern": [{"LOWER": "basel"}, {"LOWER": "committee"}, {"LOWER": "on"}, {"LOWER": "banking"}, {"LOWER": "supervision"}]}
+{"label": "REGULATOR", "pattern": "Committee", "id": "BCBS"}
+{"label": "INSTITUTION_TYPE", "pattern": "Supervisors"}
+{"label": "REGULATION_NAME", "pattern": "IRR Principles"}
+{"label": "REGULATION_NAME", "pattern": [{"LOWER": "principles"}, {"LOWER": "for"}, {"LOWER": "the"}, {"LOWER": "management"}, {"LOWER": "and"}, {"LOWER": "supervision"}, {"LOWER": "of"}, {"LOWER": "interest"}, {"LOWER": "rate"}, {"LOWER": "risk"}]}
+{"label": "REGULATION_FRAMEWORK", "pattern": [{"LOWER": "basel"}, {"LOWER": "capital"}, {"LOWER": "framework"}]}
+{"label": "REGULATION_FRAMEWORK", "pattern": "Basel II framework"}
+{"label": "REGULATION_FRAMEWORK", "pattern": "Basel II"}
+{"label": "REGULATION_FRAMEWORK", "pattern": "Pillar 1"}
+{"label": "REGULATION_FRAMEWORK", "pattern": "Pillar 2"}
+{"label": "REGULATION_FRAMEWORK", "pattern": "Pillar 3"}
+{"label": "PROCESS", "pattern": "ICAAP"}
+{"label": "PROCESS", "pattern": [{"LOWER": "internal"}, {"LOWER": "capital"}, {"LOWER": "adequacy"}, {"LOWER": "assessment"}, {"LOWER": "process"}]}
+{"label": "PROCESS", "pattern": "Supervisory Review Process"}
+{"label": "REGULATION_DETAIL", "pattern": "Principle 1"}
+{"label": "REGULATION_DETAIL", "pattern": "Principle 2"}
+{"label": "REGULATION_DETAIL", "pattern": "Principle 3"}
+{"label": "REGULATION_DETAIL", "pattern": "Principle 4"}
+{"label": "REGULATION_DETAIL", "pattern": "Principle 5"}
+{"label": "REGULATION_DETAIL", "pattern": "Principle 6"}
+{"label": "REGULATION_DETAIL", "pattern": "Principle 7"}
+{"label": "REGULATION_DETAIL", "pattern": "Principle 8"}
+{"label": "REGULATION_DETAIL", "pattern": "Principle 9"}
+{"label": "REGULATION_DETAIL", "pattern": "Principle 10"}
+{"label": "REGULATION_DETAIL", "pattern": "Principle 11"}
+{"label": "REGULATION_DETAIL", "pattern": "Principle 12"}
+{"label": "METRIC", "pattern": [{"LOWER": "economic"}, {"LOWER": "value"}, {"LOWER": "of"}, {"LOWER": "equity"}]}
+{"label": "METRIC", "pattern": "EVE"}
+{"label": "METRIC", "pattern": [{"LOWER": "net"}, {"LOWER": "interest"}, {"LOWER": "income"}]}
+{"label": "METRIC", "pattern": "NII"}
+{"label": "CAPITAL_TIER", "pattern": "Tier 1 capital"}
+{"label": "CAPITAL_TIER", "pattern": "Tier 1"}
+{"label": "CAPITAL_TIER", "pattern": "CET1"}
+{"label": "CAPITAL_TIER", "pattern": [{"LOWER": "common"}, {"LOWER": "equity"}, {"LOWER": "tier"}, {"LOWER": "1"}]}
+{"label": "CAPITAL_TIER", "pattern": "regulatory capital"}
+{"label": "FINANCIAL_PRODUCT", "pattern": "NMDs"}
+{"label": "FINANCIAL_PRODUCT", "pattern": [{"LOWER": "non-maturity"}, {"LOWER": "deposits"}]}
+{"label": "FINANCIAL_PRODUCT", "pattern": "term deposits"}
+{"label": "FINANCIAL_PRODUCT", "pattern": "fixed rate loans"}
+{"label": "FINANCIAL_PRODUCT", "pattern": "banking book"}
+{"label": "FINANCIAL_CONCEPT", "pattern": "prepayment risk"}
+{"label": "FINANCIAL_CONCEPT", "pattern": "early redemption risk"}
+{"label": "FINANCIAL_CONCEPT", "pattern": "commercial margins"}
+{"label": "COMMITTEE", "pattern": "ALCO"}
+{"label": "COMMITTEE", "pattern": [{"LOWER": "asset"}, {"LOWER": "and"}, {"LOWER": "liability"}, {"LOWER": "management"}, {"LOWER": "committee"}]}
+{"label": "ROLE", "pattern": "governing body"}
