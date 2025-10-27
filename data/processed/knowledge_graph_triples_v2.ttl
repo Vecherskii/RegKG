@@ -1,0 +1,1345 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix fibo-org-ldr: <https://spec.edmcouncil.org/fibo/ontology/ORG/Leaders/Leadership/> .
+@prefix my-proj: <http://my-project.com/ontology/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://my-project.com/instance/BCBS_IRRBB_2016_ba40d329/CAPITAL_TIER_CET1_718f5232> a <https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/Baskets/Capital> ;
+    rdfs:label "CET1"@en ;
+    dcterms:source "BCBS_IRRBB_2016_ba40d329#pg=19#t=caption#n=1" .
+
+<http://my-project.com/instance/BCBS_IRRBB_2016_ba40d329/CAPITAL_TIER_CET1_71de060f> a <https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/Baskets/Capital> ;
+    rdfs:label "CET1"@en ;
+    dcterms:source "BCBS_IRRBB_2016_ba40d329#pg=25#t=list_item#n=2" .
+
+<http://my-project.com/instance/BCBS_IRRBB_2016_ba40d329/CAPITAL_TIER_CET1_8a9e688c> a <https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/Baskets/Capital> ;
+    rdfs:label "CET1"@en ;
+    dcterms:source "BCBS_IRRBB_2016_ba40d329#pg=27#t=list_item#n=11" .
+
+<http://my-project.com/instance/BCBS_IRRBB_2016_ba40d329/CAPITAL_TIER_CET1_91019355> a <https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/Baskets/Capital> ;
+    rdfs:label "CET1"@en ;
+    dcterms:source "BCBS_IRRBB_2016_ba40d329#pg=27#t=list_item#n=9" .
+
+<http://my-project.com/instance/BCBS_IRRBB_2016_ba40d329/CAPITAL_TIER_Common_Equity_Tier_1_718f5232> a <https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/Baskets/Capital> ;
+    rdfs:label "Common Equity Tier 1"@en ;
+    dcterms:source "BCBS_IRRBB_2016_ba40d329#pg=19#t=caption#n=1" .
+
+<http://my-project.com/instance/BCBS_IRRBB_2016_ba40d329/CAPITAL_TIER_Common_Equity_Tier_1_71de060f> a <https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/Baskets/Capital> ;
+    rdfs:label "Common Equity Tier 1"@en ;
+    dcterms:source "BCBS_IRRBB_2016_ba40d329#pg=25#t=list_item#n=2" .
+
+<http://my-project.com/instance/BCBS_IRRBB_2016_ba40d329/CAPITAL_TIER_Common_Equity_Tier_1_91019355> a <https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/Baskets/Capital> ;
+    rdfs:label "Common Equity Tier 1"@en ;
+    dcterms:source "BCBS_IRRBB_2016_ba40d329#pg=27#t=list_item#n=9" .
+
+<http://my-project.com/instance/BCBS_IRRBB_2016_ba40d329/CAPITAL_TIER_Tier_1_capital_71de060f> a <https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/Baskets/Capital> ;
+    rdfs:label "Tier 1 capital"@en ;
+    dcterms:source "BCBS_IRRBB_2016_ba40d329#pg=25#t=list_item#n=2" .
+
+<http://my-project.com/instance/BCBS_IRRBB_2016_ba40d329/CAPITAL_TIER_Tier_1_capital_8e5f384d> a <https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/Baskets/Capital> ;
+    rdfs:label "Tier 1 capital"@en ;
+    dcterms:source "BCBS_IRRBB_2016_ba40d329#pg=6#t=list_item#n=1" .
+
+<http://my-project.com/instance/BCBS_IRRBB_2016_ba40d329/CAPITAL_TIER_Tier_1_capital_f443c62f> a <https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/Baskets/Capital> ;
+    rdfs:label "Tier 1 capital"@en ;
+    dcterms:source "BCBS_IRRBB_2016_ba40d329#pg=25#t=list_item#n=1" .
+
+<http://my-project.com/instance/BCBS_IRRBB_2016_ba40d329/CAPITAL_TIER_regulatory_capital_7d3fe6a2> a <https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/Baskets/Capital> ;
+    rdfs:label "regulatory capital"@en ;
+    dcterms:source "BCBS_IRRBB_2016_ba40d329#pg=34#t=list_item#n=3" .
+
+<http://my-project.com/instance/BCBS_IRRBB_2016_ba40d329/CAPITAL_TIER_regulatory_capital_8e5f384d> a <https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/Baskets/Capital> ;
+    rdfs:label "regulatory capital"@en ;
+    dcterms:source "BCBS_IRRBB_2016_ba40d329#pg=6#t=list_item#n=1" .
+
+<http://my-project.com/instance/BCBS_IRRBB_2016_ba40d329/CAPITAL_TIER_regulatory_capital_9b120d0e> a <https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/Baskets/Capital> ;
+    rdfs:label "regulatory capital"@en ;
+    dcterms:source "BCBS_IRRBB_2016_ba40d329#pg=22#t=heading#n=2" .
+
+<http://my-project.com/instance/BCBS_IRRBB_2016_ba40d329/COMMITTEE_ALCO_6aa3d7b3> a <https://spec.edmcouncil.org/fibo/ontology/BE/LegalEntities/CorporateBodies/GoverningAuthority> ;
+    rdfs:label "ALCO"@en ;
+    dcterms:source "BCBS_IRRBB_2016_ba40d329#pg=20#t=heading#n=1" .
+
+<http://my-project.com/instance/BCBS_IRRBB_2016_ba40d329/COMMITTEE_ALCO_cc0aab6d> a <https://spec.edmcouncil.org/fibo/ontology/BE/LegalEntities/CorporateBodies/GoverningAuthority> ;
+    rdfs:label "ALCO"@en ;
+    dcterms:source "BCBS_IRRBB_2016_ba40d329#pg=9#t=list_item#n=9" .
+
+<http://my-project.com/instance/BCBS_IRRBB_2016_ba40d329/COMMITTEE_ALCO_d6fee1ea> a <https://spec.edmcouncil.org/fibo/ontology/BE/LegalEntities/CorporateBodies/GoverningAuthority> ;
+    rdfs:label "ALCO"@en ;
+    dcterms:source "BCBS_IRRBB_2016_ba40d329#pg=13#t=list_item#n=1" .
+
+<http://my-project.com/instance/BCBS_IRRBB_2016_ba40d329/COMMITTEE_asset_and_liability_management_committee_cc0aab6d> a <https://spec.edmcouncil.org/fibo/ontology/BE/LegalEntities/CorporateBodies/GoverningAuthority> ;
+    rdfs:label "asset and liability management committee"@en ;
+    dcterms:source "BCBS_IRRBB_2016_ba40d329#pg=9#t=list_item#n=9" .
+
+<http://my-project.com/instance/BCBS_IRRBB_2016_ba40d329/FINANCIAL_PRODUCT_NMDs_0271e65b> a <https://spec.edmcouncil.org/fibo/ontology/FBC/FinancialInstruments/FinancialInstruments/FinancialInstrument> ;
+    rdfs:label "NMDs"@en ;
+    dcterms:source "BCBS_IRRBB_2016_ba40d329#pg=15#t=heading#n=1" .
+
+<http://my-project.com/instance/BCBS_IRRBB_2016_ba40d329/FINANCIAL_PRODUCT_NMDs_102bd1dc> a <https://spec.edmcouncil.org/fibo/ontology/FBC/FinancialInstruments/FinancialInstruments/FinancialInstrument> ;
+    rdfs:label "NMDs"@en ;
+    dcterms:source "BCBS_IRRBB_2016_ba40d329#pg=44#t=paragraph#n=2" .
+
+<http://my-project.com/instance/BCBS_IRRBB_2016_ba40d329/FINANCIAL_PRODUCT_NMDs_16a17799> a <https://spec.edmcouncil.org/fibo/ontology/FBC/FinancialInstruments/FinancialInstruments/FinancialInstrument> ;
+    rdfs:label "NMDs"@en ;
+    dcterms:source "BCBS_IRRBB_2016_ba40d329#pg=29#t=list_item#n=5" .
+
+<http://my-project.com/instance/BCBS_IRRBB_2016_ba40d329/FINANCIAL_PRODUCT_NMDs_1ab9af11> a <https://spec.edmcouncil.org/fibo/ontology/FBC/FinancialInstruments/FinancialInstruments/FinancialInstrument> ;
+    rdfs:label "NMDs"@en ;
+    dcterms:source "BCBS_IRRBB_2016_ba40d329#pg=42#t=list_item#n=4" .
+
+<http://my-project.com/instance/BCBS_IRRBB_2016_ba40d329/FINANCIAL_PRODUCT_NMDs_1cee1e7d> a <https://spec.edmcouncil.org/fibo/ontology/FBC/FinancialInstruments/FinancialInstruments/FinancialInstrument> ;
+    rdfs:label "NMDs"@en ;
+    dcterms:source "BCBS_IRRBB_2016_ba40d329#pg=30#t=paragraph#n=4" .
+
+<http://my-project.com/instance/BCBS_IRRBB_2016_ba40d329/FINANCIAL_PRODUCT_NMDs_1fb4528f> a <https://spec.edmcouncil.org/fibo/ontology/FBC/FinancialInstruments/FinancialInstruments/FinancialInstrument> ;
+    rdfs:label "NMDs"@en ;
+    dcterms:source "BCBS_IRRBB_2016_ba40d329#pg=30#t=list_item#n=2" .
+
+<http://my-project.com/instance/BCBS_IRRBB_2016_ba40d329/FINANCIAL_PRODUCT_NMDs_23b18cff> a <https://spec.edmcouncil.org/fibo/ontology/FBC/FinancialInstruments/FinancialInstruments/FinancialInstrument> ;
+    rdfs:label "NMDs"@en ;
+    dcterms:source "BCBS_IRRBB_2016_ba40d329#pg=23#t=list_item#n=2" .
+
+<http://my-project.com/instance/BCBS_IRRBB_2016_ba40d329/FINANCIAL_PRODUCT_NMDs_33833b29> a <https://spec.edmcouncil.org/fibo/ontology/FBC/FinancialInstruments/FinancialInstruments/FinancialInstrument> ;
+    rdfs:label "NMDs"@en ;
+    dcterms:source "BCBS_IRRBB_2016_ba40d329#pg=30#t=list_item#n=1" .
+
+<http://my-project.com/instance/BCBS_IRRBB_2016_ba40d329/FINANCIAL_PRODUCT_NMDs_4ab2ab45> a <https://spec.edmcouncil.org/fibo/ontology/FBC/FinancialInstruments/FinancialInstruments/FinancialInstrument> ;
+    rdfs:label "NMDs"@en ;
+    dcterms:source "BCBS_IRRBB_2016_ba40d329#pg=30#t=list_item#n=5" .
+
+<http://my-project.com/instance/BCBS_IRRBB_2016_ba40d329/FINANCIAL_PRODUCT_NMDs_62bfbffe> a <https://spec.edmcouncil.org/fibo/ontology/FBC/FinancialInstruments/FinancialInstruments/FinancialInstrument> ;
+    rdfs:label "NMDs"@en ;
+    dcterms:source "BCBS_IRRBB_2016_ba40d329#pg=29#t=list_item#n=6" .
+
+<http://my-project.com/instance/BCBS_IRRBB_2016_ba40d329/FINANCIAL_PRODUCT_NMDs_719d0f60> a <https://spec.edmcouncil.org/fibo/ontology/FBC/FinancialInstruments/FinancialInstruments/FinancialInstrument> ;
+    rdfs:label "NMDs"@en ;
+    dcterms:source "BCBS_IRRBB_2016_ba40d329#pg=47#t=heading#n=1" .
+
+<http://my-project.com/instance/BCBS_IRRBB_2016_ba40d329/FINANCIAL_PRODUCT_NMDs_7d35a96e> a <https://spec.edmcouncil.org/fibo/ontology/FBC/FinancialInstruments/FinancialInstruments/FinancialInstrument> ;
+    rdfs:label "NMDs"@en ;
+    dcterms:source "BCBS_IRRBB_2016_ba40d329#pg=30#t=list_item#n=7" .
+
+<http://my-project.com/instance/BCBS_IRRBB_2016_ba40d329/FINANCIAL_PRODUCT_NMDs_88d24309> a <https://spec.edmcouncil.org/fibo/ontology/FBC/FinancialInstruments/FinancialInstruments/FinancialInstrument> ;
+    rdfs:label "NMDs"@en ;
+    dcterms:source "BCBS_IRRBB_2016_ba40d329#pg=25#t=list_item#n=5" .
+
+<http://my-project.com/instance/BCBS_IRRBB_2016_ba40d329/FINANCIAL_PRODUCT_NMDs_a4858f49> a <https://spec.edmcouncil.org/fibo/ontology/FBC/FinancialInstruments/FinancialInstruments/FinancialInstrument> ;
+    rdfs:label "NMDs"@en ;
+    dcterms:source "BCBS_IRRBB_2016_ba40d329#pg=43#t=heading#n=3" .
+
+<http://my-project.com/instance/BCBS_IRRBB_2016_ba40d329/FINANCIAL_PRODUCT_NMDs_a59588a8> a <https://spec.edmcouncil.org/fibo/ontology/FBC/FinancialInstruments/FinancialInstruments/FinancialInstrument> ;
+    rdfs:label "NMDs"@en ;
+    dcterms:source "BCBS_IRRBB_2016_ba40d329#pg=43#t=caption#n=1" .
+
+<http://my-project.com/instance/BCBS_IRRBB_2016_ba40d329/FINANCIAL_PRODUCT_NMDs_a7319b38> a <https://spec.edmcouncil.org/fibo/ontology/FBC/FinancialInstruments/FinancialInstruments/FinancialInstrument> ;
+    rdfs:label "NMDs"@en ;
+    dcterms:source "BCBS_IRRBB_2016_ba40d329#pg=29#t=list_item#n=8" .
+
+<http://my-project.com/instance/BCBS_IRRBB_2016_ba40d329/FINANCIAL_PRODUCT_NMDs_a79e9f5a> a <https://spec.edmcouncil.org/fibo/ontology/FBC/FinancialInstruments/FinancialInstruments/FinancialInstrument> ;
+    rdfs:label "NMDs"@en ;
+    dcterms:source "BCBS_IRRBB_2016_ba40d329#pg=27#t=list_item#n=2" .
+
+<http://my-project.com/instance/BCBS_IRRBB_2016_ba40d329/FINANCIAL_PRODUCT_NMDs_a8b9b111> a <https://spec.edmcouncil.org/fibo/ontology/FBC/FinancialInstruments/FinancialInstruments/FinancialInstrument> ;
+    rdfs:label "NMDs"@en ;
+    dcterms:source "BCBS_IRRBB_2016_ba40d329#pg=20#t=paragraph#n=3" .
+
+<http://my-project.com/instance/BCBS_IRRBB_2016_ba40d329/FINANCIAL_PRODUCT_NMDs_a8d5e556> a <https://spec.edmcouncil.org/fibo/ontology/FBC/FinancialInstruments/FinancialInstruments/FinancialInstrument> ;
+    rdfs:label "NMDs"@en ;
+    dcterms:source "BCBS_IRRBB_2016_ba40d329#pg=43#t=paragraph#n=2" .
+
+<http://my-project.com/instance/BCBS_IRRBB_2016_ba40d329/FINANCIAL_PRODUCT_NMDs_aba31c88> a <https://spec.edmcouncil.org/fibo/ontology/FBC/FinancialInstruments/FinancialInstruments/FinancialInstrument> ;
+    rdfs:label "NMDs"@en ;
+    dcterms:source "BCBS_IRRBB_2016_ba40d329#pg=34#t=caption#n=3" .
+
+<http://my-project.com/instance/BCBS_IRRBB_2016_ba40d329/FINANCIAL_PRODUCT_NMDs_ac999ad5> a <https://spec.edmcouncil.org/fibo/ontology/FBC/FinancialInstruments/FinancialInstruments/FinancialInstrument> ;
+    rdfs:label "NMDs"@en ;
+    dcterms:source "BCBS_IRRBB_2016_ba40d329#pg=14#t=list_item#n=5" .
+
+<http://my-project.com/instance/BCBS_IRRBB_2016_ba40d329/FINANCIAL_PRODUCT_NMDs_c14897f0> a <https://spec.edmcouncil.org/fibo/ontology/FBC/FinancialInstruments/FinancialInstruments/FinancialInstrument> ;
+    rdfs:label "NMDs"@en ;
+    dcterms:source "BCBS_IRRBB_2016_ba40d329#pg=44#t=paragraph#n=1" .
+
+<http://my-project.com/instance/BCBS_IRRBB_2016_ba40d329/FINANCIAL_PRODUCT_NMDs_c5d0de02> a <https://spec.edmcouncil.org/fibo/ontology/FBC/FinancialInstruments/FinancialInstruments/FinancialInstrument> ;
+    rdfs:label "NMDs"@en ;
+    dcterms:source "BCBS_IRRBB_2016_ba40d329#pg=14#t=list_item#n=9" .
+
+<http://my-project.com/instance/BCBS_IRRBB_2016_ba40d329/FINANCIAL_PRODUCT_NMDs_c64ad384> a <https://spec.edmcouncil.org/fibo/ontology/FBC/FinancialInstruments/FinancialInstruments/FinancialInstrument> ;
+    rdfs:label "NMDs"@en ;
+    dcterms:source "BCBS_IRRBB_2016_ba40d329#pg=3#t=list_item#n=9" .
+
+<http://my-project.com/instance/BCBS_IRRBB_2016_ba40d329/FINANCIAL_PRODUCT_NMDs_c7858be7> a <https://spec.edmcouncil.org/fibo/ontology/FBC/FinancialInstruments/FinancialInstruments/FinancialInstrument> ;
+    rdfs:label "NMDs"@en ;
+    dcterms:source "BCBS_IRRBB_2016_ba40d329#pg=3#t=list_item#n=10" .
+
+<http://my-project.com/instance/BCBS_IRRBB_2016_ba40d329/FINANCIAL_PRODUCT_NMDs_eefe0a5a> a <https://spec.edmcouncil.org/fibo/ontology/FBC/FinancialInstruments/FinancialInstruments/FinancialInstrument> ;
+    rdfs:label "NMDs"@en ;
+    dcterms:source "BCBS_IRRBB_2016_ba40d329#pg=29#t=list_item#n=4" .
+
+<http://my-project.com/instance/BCBS_IRRBB_2016_ba40d329/FINANCIAL_PRODUCT_NMDs_f7ad0e12> a <https://spec.edmcouncil.org/fibo/ontology/FBC/FinancialInstruments/FinancialInstruments/FinancialInstrument> ;
+    rdfs:label "NMDs"@en ;
+    dcterms:source "BCBS_IRRBB_2016_ba40d329#pg=15#t=paragraph#n=1" .
+
+<http://my-project.com/instance/BCBS_IRRBB_2016_ba40d329/FINANCIAL_PRODUCT_NMDs_ff4bffcc> a <https://spec.edmcouncil.org/fibo/ontology/FBC/FinancialInstruments/FinancialInstruments/FinancialInstrument> ;
+    rdfs:label "NMDs"@en ;
+    dcterms:source "BCBS_IRRBB_2016_ba40d329#pg=45#t=heading#n=1" .
+
+<http://my-project.com/instance/BCBS_IRRBB_2016_ba40d329/FINANCIAL_PRODUCT_banking_book_00192083> a <https://spec.edmcouncil.org/fibo/ontology/FBC/FinancialInstruments/FinancialInstruments/FinancialInstrument> ;
+    rdfs:label "banking book"@en ;
+    dcterms:source "BCBS_IRRBB_2016_ba40d329#pg=7#t=list_item#n=2" .
+
+<http://my-project.com/instance/BCBS_IRRBB_2016_ba40d329/FINANCIAL_PRODUCT_banking_book_2b71af68> a <https://spec.edmcouncil.org/fibo/ontology/FBC/FinancialInstruments/FinancialInstruments/FinancialInstrument> ;
+    rdfs:label "banking book"@en ;
+    dcterms:source "BCBS_IRRBB_2016_ba40d329#pg=11#t=caption#n=1" .
+
+<http://my-project.com/instance/BCBS_IRRBB_2016_ba40d329/FINANCIAL_PRODUCT_banking_book_328a3b97> a <https://spec.edmcouncil.org/fibo/ontology/FBC/FinancialInstruments/FinancialInstruments/FinancialInstrument> ;
+    rdfs:label "banking book"@en ;
+    dcterms:source "BCBS_IRRBB_2016_ba40d329#pg=38#t=list_item#n=1" .
+
+<http://my-project.com/instance/BCBS_IRRBB_2016_ba40d329/FINANCIAL_PRODUCT_banking_book_3d080033> a <https://spec.edmcouncil.org/fibo/ontology/FBC/FinancialInstruments/FinancialInstruments/FinancialInstrument> ;
+    rdfs:label "banking book"@en ;
+    dcterms:source "BCBS_IRRBB_2016_ba40d329#pg=19#t=list_item#n=5" .
+
+<http://my-project.com/instance/BCBS_IRRBB_2016_ba40d329/FINANCIAL_PRODUCT_banking_book_409dffeb> a <https://spec.edmcouncil.org/fibo/ontology/FBC/FinancialInstruments/FinancialInstruments/FinancialInstrument> ;
+    rdfs:label "banking book"@en ;
+    dcterms:source "BCBS_IRRBB_2016_ba40d329#pg=19#t=list_item#n=3" .
+
+<http://my-project.com/instance/BCBS_IRRBB_2016_ba40d329/FINANCIAL_PRODUCT_banking_book_45e11d96> a <https://spec.edmcouncil.org/fibo/ontology/FBC/FinancialInstruments/FinancialInstruments/FinancialInstrument> ;
+    rdfs:label "banking book"@en ;
+    dcterms:source "BCBS_IRRBB_2016_ba40d329#pg=36#t=paragraph#n=1" .
+
+<http://my-project.com/instance/BCBS_IRRBB_2016_ba40d329/FINANCIAL_PRODUCT_banking_book_50ba7e27> a <https://spec.edmcouncil.org/fibo/ontology/FBC/FinancialInstruments/FinancialInstruments/FinancialInstrument> ;
+    rdfs:label "banking book"@en ;
+    dcterms:source "BCBS_IRRBB_2016_ba40d329#pg=36#t=paragraph#n=2" .
+
+<http://my-project.com/instance/BCBS_IRRBB_2016_ba40d329/FINANCIAL_PRODUCT_banking_book_719d0f60> a <https://spec.edmcouncil.org/fibo/ontology/FBC/FinancialInstruments/FinancialInstruments/FinancialInstrument> ;
+    rdfs:label "banking book"@en ;
+    dcterms:source "BCBS_IRRBB_2016_ba40d329#pg=47#t=heading#n=1" .
+
+<http://my-project.com/instance/BCBS_IRRBB_2016_ba40d329/FINANCIAL_PRODUCT_banking_book_74dbbeac> a <https://spec.edmcouncil.org/fibo/ontology/FBC/FinancialInstruments/FinancialInstruments/FinancialInstrument> ;
+    rdfs:label "banking book"@en ;
+    dcterms:source "BCBS_IRRBB_2016_ba40d329#pg=26#t=list_item#n=12" .
+
+<http://my-project.com/instance/BCBS_IRRBB_2016_ba40d329/FINANCIAL_PRODUCT_banking_book_80af5282> a <https://spec.edmcouncil.org/fibo/ontology/FBC/FinancialInstruments/FinancialInstruments/FinancialInstrument> ;
+    rdfs:label "banking book"@en ;
+    dcterms:source "BCBS_IRRBB_2016_ba40d329#pg=3#t=list_item#n=3" .
+
+<http://my-project.com/instance/BCBS_IRRBB_2016_ba40d329/FINANCIAL_PRODUCT_banking_book_80b579ee> a <https://spec.edmcouncil.org/fibo/ontology/FBC/FinancialInstruments/FinancialInstruments/FinancialInstrument> ;
+    rdfs:label "banking book"@en ;
+    dcterms:source "BCBS_IRRBB_2016_ba40d329#pg=19#t=list_item#n=6" .
+
+<http://my-project.com/instance/BCBS_IRRBB_2016_ba40d329/FINANCIAL_PRODUCT_banking_book_88d24309> a <https://spec.edmcouncil.org/fibo/ontology/FBC/FinancialInstruments/FinancialInstruments/FinancialInstrument> ;
+    rdfs:label "banking book"@en ;
+    dcterms:source "BCBS_IRRBB_2016_ba40d329#pg=25#t=list_item#n=5" .
+
+<http://my-project.com/instance/BCBS_IRRBB_2016_ba40d329/FINANCIAL_PRODUCT_banking_book_a7ad233e> a <https://spec.edmcouncil.org/fibo/ontology/FBC/FinancialInstruments/FinancialInstruments/FinancialInstrument> ;
+    rdfs:label "banking book"@en ;
+    dcterms:source "BCBS_IRRBB_2016_ba40d329#pg=33#t=paragraph#n=5" .
+
+<http://my-project.com/instance/BCBS_IRRBB_2016_ba40d329/FINANCIAL_PRODUCT_banking_book_ab7014c5> a <https://spec.edmcouncil.org/fibo/ontology/FBC/FinancialInstruments/FinancialInstruments/FinancialInstrument> ;
+    rdfs:label "banking book"@en ;
+    dcterms:source "BCBS_IRRBB_2016_ba40d329#pg=46#t=heading#n=1" .
+
+<http://my-project.com/instance/BCBS_IRRBB_2016_ba40d329/FINANCIAL_PRODUCT_banking_book_b175d363> a <https://spec.edmcouncil.org/fibo/ontology/FBC/FinancialInstruments/FinancialInstruments/FinancialInstrument> ;
+    rdfs:label "banking book"@en ;
+    dcterms:source "BCBS_IRRBB_2016_ba40d329#pg=19#t=list_item#n=10" .
+
+<http://my-project.com/instance/BCBS_IRRBB_2016_ba40d329/FINANCIAL_PRODUCT_banking_book_cdcaee51> a <https://spec.edmcouncil.org/fibo/ontology/FBC/FinancialInstruments/FinancialInstruments/FinancialInstrument> ;
+    rdfs:label "banking book"@en ;
+    dcterms:source "BCBS_IRRBB_2016_ba40d329#pg=7#t=list_item#n=5" .
+
+<http://my-project.com/instance/BCBS_IRRBB_2016_ba40d329/FINANCIAL_PRODUCT_banking_book_d494edbb> a <https://spec.edmcouncil.org/fibo/ontology/FBC/FinancialInstruments/FinancialInstruments/FinancialInstrument> ;
+    rdfs:label "banking book"@en ;
+    dcterms:source "BCBS_IRRBB_2016_ba40d329#pg=41#t=paragraph#n=1" .
+
+<http://my-project.com/instance/BCBS_IRRBB_2016_ba40d329/FINANCIAL_PRODUCT_banking_book_d937c318> a <https://spec.edmcouncil.org/fibo/ontology/FBC/FinancialInstruments/FinancialInstruments/FinancialInstrument> ;
+    rdfs:label "banking book"@en ;
+    dcterms:source "BCBS_IRRBB_2016_ba40d329#pg=45#t=list_item#n=1" .
+
+<http://my-project.com/instance/BCBS_IRRBB_2016_ba40d329/FINANCIAL_PRODUCT_banking_book_dad7a67f> a <https://spec.edmcouncil.org/fibo/ontology/FBC/FinancialInstruments/FinancialInstruments/FinancialInstrument> ;
+    rdfs:label "banking book"@en ;
+    dcterms:source "BCBS_IRRBB_2016_ba40d329#pg=7#t=list_item#n=8" .
+
+<http://my-project.com/instance/BCBS_IRRBB_2016_ba40d329/FINANCIAL_PRODUCT_banking_book_ddc225f3> a <https://spec.edmcouncil.org/fibo/ontology/FBC/FinancialInstruments/FinancialInstruments/FinancialInstrument> ;
+    rdfs:label "banking book"@en ;
+    dcterms:source "BCBS_IRRBB_2016_ba40d329#pg=28#t=paragraph#n=1" .
+
+<http://my-project.com/instance/BCBS_IRRBB_2016_ba40d329/FINANCIAL_PRODUCT_banking_book_ff4bffcc> a <https://spec.edmcouncil.org/fibo/ontology/FBC/FinancialInstruments/FinancialInstruments/FinancialInstrument> ;
+    rdfs:label "banking book"@en ;
+    dcterms:source "BCBS_IRRBB_2016_ba40d329#pg=45#t=heading#n=1" .
+
+<http://my-project.com/instance/BCBS_IRRBB_2016_ba40d329/FINANCIAL_PRODUCT_fixed_rate_loans_01759202> a <https://spec.edmcouncil.org/fibo/ontology/FBC/FinancialInstruments/FinancialInstruments/FinancialInstrument> ;
+    rdfs:label "fixed rate loans"@en ;
+    dcterms:source "BCBS_IRRBB_2016_ba40d329#pg=32#t=list_item#n=1" .
+
+<http://my-project.com/instance/BCBS_IRRBB_2016_ba40d329/FINANCIAL_PRODUCT_fixed_rate_loans_1a6d78b2> a <https://spec.edmcouncil.org/fibo/ontology/FBC/FinancialInstruments/FinancialInstruments/FinancialInstrument> ;
+    rdfs:label "fixed rate loans"@en ;
+    dcterms:source "BCBS_IRRBB_2016_ba40d329#pg=27#t=list_item#n=3" .
+
+<http://my-project.com/instance/BCBS_IRRBB_2016_ba40d329/FINANCIAL_PRODUCT_fixed_rate_loans_2c51dda9> a <https://spec.edmcouncil.org/fibo/ontology/FBC/FinancialInstruments/FinancialInstruments/FinancialInstrument> ;
+    rdfs:label "fixed rate loans"@en ;
+    dcterms:source "BCBS_IRRBB_2016_ba40d329#pg=8#t=list_item#n=2" .
+
+<http://my-project.com/instance/BCBS_IRRBB_2016_ba40d329/FINANCIAL_PRODUCT_fixed_rate_loans_49fe697c> a <https://spec.edmcouncil.org/fibo/ontology/FBC/FinancialInstruments/FinancialInstruments/FinancialInstrument> ;
+    rdfs:label "fixed rate loans"@en ;
+    dcterms:source "BCBS_IRRBB_2016_ba40d329#pg=30#t=list_item#n=9" .
+
+<http://my-project.com/instance/BCBS_IRRBB_2016_ba40d329/FINANCIAL_PRODUCT_fixed_rate_loans_85cde4ae> a <https://spec.edmcouncil.org/fibo/ontology/FBC/FinancialInstruments/FinancialInstruments/FinancialInstrument> ;
+    rdfs:label "fixed rate loans"@en ;
+    dcterms:source "BCBS_IRRBB_2016_ba40d329#pg=18#t=list_item#n=5" .
+
+<http://my-project.com/instance/BCBS_IRRBB_2016_ba40d329/FINANCIAL_PRODUCT_fixed_rate_loans_af5b6556> a <https://spec.edmcouncil.org/fibo/ontology/FBC/FinancialInstruments/FinancialInstruments/FinancialInstrument> ;
+    rdfs:label "fixed rate loans"@en ;
+    dcterms:source "BCBS_IRRBB_2016_ba40d329#pg=28#t=list_item#n=7" .
+
+<http://my-project.com/instance/BCBS_IRRBB_2016_ba40d329/FINANCIAL_PRODUCT_fixed_rate_loans_eefe0a5a> a <https://spec.edmcouncil.org/fibo/ontology/FBC/FinancialInstruments/FinancialInstruments/FinancialInstrument> ;
+    rdfs:label "fixed rate loans"@en ;
+    dcterms:source "BCBS_IRRBB_2016_ba40d329#pg=29#t=list_item#n=4" .
+
+<http://my-project.com/instance/BCBS_IRRBB_2016_ba40d329/FINANCIAL_PRODUCT_fixed_rate_loans_f62e54ff> a <https://spec.edmcouncil.org/fibo/ontology/FBC/FinancialInstruments/FinancialInstruments/FinancialInstrument> ;
+    rdfs:label "fixed rate loans"@en ;
+    dcterms:source "BCBS_IRRBB_2016_ba40d329#pg=31#t=list_item#n=3" .
+
+<http://my-project.com/instance/BCBS_IRRBB_2016_ba40d329/FINANCIAL_PRODUCT_term_deposits_04f120c9> a <https://spec.edmcouncil.org/fibo/ontology/FBC/FinancialInstruments/FinancialInstruments/FinancialInstrument> ;
+    rdfs:label "term deposits"@en ;
+    dcterms:source "BCBS_IRRBB_2016_ba40d329#pg=33#t=list_item#n=1" .
+
+<http://my-project.com/instance/BCBS_IRRBB_2016_ba40d329/FINANCIAL_PRODUCT_term_deposits_1a6d78b2> a <https://spec.edmcouncil.org/fibo/ontology/FBC/FinancialInstruments/FinancialInstruments/FinancialInstrument> ;
+    rdfs:label "term deposits"@en ;
+    dcterms:source "BCBS_IRRBB_2016_ba40d329#pg=27#t=list_item#n=3" .
+
+<http://my-project.com/instance/BCBS_IRRBB_2016_ba40d329/FINANCIAL_PRODUCT_term_deposits_2c51dda9> a <https://spec.edmcouncil.org/fibo/ontology/FBC/FinancialInstruments/FinancialInstruments/FinancialInstrument> ;
+    rdfs:label "term deposits"@en ;
+    dcterms:source "BCBS_IRRBB_2016_ba40d329#pg=8#t=list_item#n=2" .
+
+<http://my-project.com/instance/BCBS_IRRBB_2016_ba40d329/FINANCIAL_PRODUCT_term_deposits_785b8454> a <https://spec.edmcouncil.org/fibo/ontology/FBC/FinancialInstruments/FinancialInstruments/FinancialInstrument> ;
+    rdfs:label "term deposits"@en ;
+    dcterms:source "BCBS_IRRBB_2016_ba40d329#pg=32#t=list_item#n=6" .
+
+<http://my-project.com/instance/BCBS_IRRBB_2016_ba40d329/FINANCIAL_PRODUCT_term_deposits_87ffbec8> a <https://spec.edmcouncil.org/fibo/ontology/FBC/FinancialInstruments/FinancialInstruments/FinancialInstrument> ;
+    rdfs:label "term deposits"@en ;
+    dcterms:source "BCBS_IRRBB_2016_ba40d329#pg=33#t=paragraph#n=3" .
+
+<http://my-project.com/instance/BCBS_IRRBB_2016_ba40d329/FINANCIAL_PRODUCT_term_deposits_9184ad1d> a <https://spec.edmcouncil.org/fibo/ontology/FBC/FinancialInstruments/FinancialInstruments/FinancialInstrument> ;
+    rdfs:label "term deposits"@en ;
+    dcterms:source "BCBS_IRRBB_2016_ba40d329#pg=32#t=list_item#n=2" .
+
+<http://my-project.com/instance/BCBS_IRRBB_2016_ba40d329/FINANCIAL_PRODUCT_term_deposits_c809ab82> a <https://spec.edmcouncil.org/fibo/ontology/FBC/FinancialInstruments/FinancialInstruments/FinancialInstrument> ;
+    rdfs:label "term deposits"@en ;
+    dcterms:source "BCBS_IRRBB_2016_ba40d329#pg=32#t=list_item#n=5" .
+
+<http://my-project.com/instance/BCBS_IRRBB_2016_ba40d329/FINANCIAL_PRODUCT_term_deposits_eefe0a5a> a <https://spec.edmcouncil.org/fibo/ontology/FBC/FinancialInstruments/FinancialInstruments/FinancialInstrument> ;
+    rdfs:label "term deposits"@en ;
+    dcterms:source "BCBS_IRRBB_2016_ba40d329#pg=29#t=list_item#n=4" .
+
+<http://my-project.com/instance/BCBS_IRRBB_2016_ba40d329/METRIC_EVE_102bd1dc> a my-proj:RegulatoryMetric ;
+    rdfs:label "EVE"@en ;
+    dcterms:source "BCBS_IRRBB_2016_ba40d329#pg=44#t=paragraph#n=2" .
+
+<http://my-project.com/instance/BCBS_IRRBB_2016_ba40d329/METRIC_EVE_2511e7e6> a my-proj:RegulatoryMetric ;
+    rdfs:label "EVE"@en ;
+    dcterms:source "BCBS_IRRBB_2016_ba40d329#pg=34#t=list_item#n=4" .
+
+<http://my-project.com/instance/BCBS_IRRBB_2016_ba40d329/METRIC_EVE_2a26c688> a my-proj:RegulatoryMetric ;
+    rdfs:label "EVE"@en ;
+    dcterms:source "BCBS_IRRBB_2016_ba40d329#pg=42#t=paragraph#n=1" .
+
+<http://my-project.com/instance/BCBS_IRRBB_2016_ba40d329/METRIC_EVE_2ab3685e> a my-proj:RegulatoryMetric ;
+    rdfs:label "EVE"@en ;
+    dcterms:source "BCBS_IRRBB_2016_ba40d329#pg=26#t=list_item#n=11" .
+
+<http://my-project.com/instance/BCBS_IRRBB_2016_ba40d329/METRIC_EVE_35f26813> a my-proj:RegulatoryMetric ;
+    rdfs:label "EVE"@en ;
+    dcterms:source "BCBS_IRRBB_2016_ba40d329#pg=44#t=list_item#n=3" .
+
+<http://my-project.com/instance/BCBS_IRRBB_2016_ba40d329/METRIC_EVE_6aa3d7b3> a my-proj:RegulatoryMetric ;
+    rdfs:label "EVE"@en ;
+    dcterms:source "BCBS_IRRBB_2016_ba40d329#pg=20#t=heading#n=1" .
+
+<http://my-project.com/instance/BCBS_IRRBB_2016_ba40d329/METRIC_EVE_7345de37> a my-proj:RegulatoryMetric ;
+    rdfs:label "EVE"@en ;
+    dcterms:source "BCBS_IRRBB_2016_ba40d329#pg=48#t=paragraph#n=1" .
+
+<http://my-project.com/instance/BCBS_IRRBB_2016_ba40d329/METRIC_EVE_8381fb53> a my-proj:RegulatoryMetric ;
+    rdfs:label "EVE"@en ;
+    dcterms:source "BCBS_IRRBB_2016_ba40d329#pg=3#t=list_item#n=12" .
+
+<http://my-project.com/instance/BCBS_IRRBB_2016_ba40d329/METRIC_EVE_88d24309> a my-proj:RegulatoryMetric ;
+    rdfs:label "EVE"@en ;
+    dcterms:source "BCBS_IRRBB_2016_ba40d329#pg=25#t=list_item#n=5" .
+
+<http://my-project.com/instance/BCBS_IRRBB_2016_ba40d329/METRIC_EVE_905d623d> a my-proj:RegulatoryMetric ;
+    rdfs:label "EVE"@en ;
+    dcterms:source "BCBS_IRRBB_2016_ba40d329#pg=35#t=list_item#n=1" .
+
+<http://my-project.com/instance/BCBS_IRRBB_2016_ba40d329/METRIC_EVE_a5f695fb> a my-proj:RegulatoryMetric ;
+    rdfs:label "EVE"@en ;
+    dcterms:source "BCBS_IRRBB_2016_ba40d329#pg=34#t=list_item#n=8" .
+
+<http://my-project.com/instance/BCBS_IRRBB_2016_ba40d329/METRIC_EVE_ab7014c5> a my-proj:RegulatoryMetric ;
+    rdfs:label "EVE"@en ;
+    dcterms:source "BCBS_IRRBB_2016_ba40d329#pg=46#t=heading#n=1" .
+
+<http://my-project.com/instance/BCBS_IRRBB_2016_ba40d329/METRIC_EVE_b9d35a3d> a my-proj:RegulatoryMetric ;
+    rdfs:label "EVE"@en ;
+    dcterms:source "BCBS_IRRBB_2016_ba40d329#pg=27#t=list_item#n=5" .
+
+<http://my-project.com/instance/BCBS_IRRBB_2016_ba40d329/METRIC_EVE_ccaca31e> a my-proj:RegulatoryMetric ;
+    rdfs:label "EVE"@en ;
+    dcterms:source "BCBS_IRRBB_2016_ba40d329#pg=27#t=list_item#n=6" .
+
+<http://my-project.com/instance/BCBS_IRRBB_2016_ba40d329/METRIC_EVE_d45a7b46> a my-proj:RegulatoryMetric ;
+    rdfs:label "EVE"@en ;
+    dcterms:source "BCBS_IRRBB_2016_ba40d329#pg=35#t=paragraph#n=1" .
+
+<http://my-project.com/instance/BCBS_IRRBB_2016_ba40d329/METRIC_EVE_d937c318> a my-proj:RegulatoryMetric ;
+    rdfs:label "EVE"@en ;
+    dcterms:source "BCBS_IRRBB_2016_ba40d329#pg=45#t=list_item#n=1" .
+
+<http://my-project.com/instance/BCBS_IRRBB_2016_ba40d329/METRIC_EVE_ead46ff9> a my-proj:RegulatoryMetric ;
+    rdfs:label "EVE"@en ;
+    dcterms:source "BCBS_IRRBB_2016_ba40d329#pg=40#t=list_item#n=1" .
+
+<http://my-project.com/instance/BCBS_IRRBB_2016_ba40d329/METRIC_EVE_f86c6cdd> a my-proj:RegulatoryMetric ;
+    rdfs:label "EVE"@en ;
+    dcterms:source "BCBS_IRRBB_2016_ba40d329#pg=39#t=list_item#n=7" .
+
+<http://my-project.com/instance/BCBS_IRRBB_2016_ba40d329/METRIC_NII_00192083> a my-proj:RegulatoryMetric ;
+    rdfs:label "NII"@en ;
+    dcterms:source "BCBS_IRRBB_2016_ba40d329#pg=7#t=list_item#n=2" .
+
+<http://my-project.com/instance/BCBS_IRRBB_2016_ba40d329/METRIC_NII_3e10fd2b> a my-proj:RegulatoryMetric ;
+    rdfs:label "NII"@en ;
+    dcterms:source "BCBS_IRRBB_2016_ba40d329#pg=21#t=list_item#n=1" .
+
+<http://my-project.com/instance/BCBS_IRRBB_2016_ba40d329/METRIC_NII_45e11d96> a my-proj:RegulatoryMetric ;
+    rdfs:label "NII"@en ;
+    dcterms:source "BCBS_IRRBB_2016_ba40d329#pg=36#t=paragraph#n=1" .
+
+<http://my-project.com/instance/BCBS_IRRBB_2016_ba40d329/METRIC_NII_6294e5c8> a my-proj:RegulatoryMetric ;
+    rdfs:label "NII"@en ;
+    dcterms:source "BCBS_IRRBB_2016_ba40d329#pg=43#t=paragraph#n=1" .
+
+<http://my-project.com/instance/BCBS_IRRBB_2016_ba40d329/METRIC_NII_6aa3d7b3> a my-proj:RegulatoryMetric ;
+    rdfs:label "NII"@en ;
+    dcterms:source "BCBS_IRRBB_2016_ba40d329#pg=20#t=heading#n=1" .
+
+<http://my-project.com/instance/BCBS_IRRBB_2016_ba40d329/METRIC_NII_7345de37> a my-proj:RegulatoryMetric ;
+    rdfs:label "NII"@en ;
+    dcterms:source "BCBS_IRRBB_2016_ba40d329#pg=48#t=paragraph#n=1" .
+
+<http://my-project.com/instance/BCBS_IRRBB_2016_ba40d329/METRIC_NII_c0e3b001> a my-proj:RegulatoryMetric ;
+    rdfs:label "NII"@en ;
+    dcterms:source "BCBS_IRRBB_2016_ba40d329#pg=13#t=list_item#n=7" .
+
+<http://my-project.com/instance/BCBS_IRRBB_2016_ba40d329/METRIC_NII_c967b38b> a my-proj:RegulatoryMetric ;
+    rdfs:label "NII"@en ;
+    dcterms:source "BCBS_IRRBB_2016_ba40d329#pg=40#t=paragraph#n=2" .
+
+<http://my-project.com/instance/BCBS_IRRBB_2016_ba40d329/METRIC_NII_e02ea1a8> a my-proj:RegulatoryMetric ;
+    rdfs:label "NII"@en ;
+    dcterms:source "BCBS_IRRBB_2016_ba40d329#pg=22#t=list_item#n=9" .
+
+<http://my-project.com/instance/BCBS_IRRBB_2016_ba40d329/METRIC_NII_e578e32f> a my-proj:RegulatoryMetric ;
+    rdfs:label "NII"@en ;
+    dcterms:source "BCBS_IRRBB_2016_ba40d329#pg=46#t=paragraph#n=1" .
+
+<http://my-project.com/instance/BCBS_IRRBB_2016_ba40d329/METRIC_NII_ff4bffcc> a my-proj:RegulatoryMetric ;
+    rdfs:label "NII"@en ;
+    dcterms:source "BCBS_IRRBB_2016_ba40d329#pg=45#t=heading#n=1" .
+
+<http://my-project.com/instance/BCBS_IRRBB_2016_ba40d329/METRIC_economic_value_of_equity_35f26813> a my-proj:RegulatoryMetric ;
+    rdfs:label "economic value of equity"@en ;
+    dcterms:source "BCBS_IRRBB_2016_ba40d329#pg=44#t=list_item#n=3" .
+
+<http://my-project.com/instance/BCBS_IRRBB_2016_ba40d329/METRIC_economic_value_of_equity_3e10fd2b> a my-proj:RegulatoryMetric ;
+    rdfs:label "economic value of equity"@en ;
+    dcterms:source "BCBS_IRRBB_2016_ba40d329#pg=21#t=list_item#n=1" .
+
+<http://my-project.com/instance/BCBS_IRRBB_2016_ba40d329/METRIC_economic_value_of_equity_9069a071> a my-proj:RegulatoryMetric ;
+    rdfs:label "economic value of equity"@en ;
+    dcterms:source "BCBS_IRRBB_2016_ba40d329#pg=15#t=list_item#n=3" .
+
+<http://my-project.com/instance/BCBS_IRRBB_2016_ba40d329/METRIC_economic_value_of_equity_b8170de9> a my-proj:RegulatoryMetric ;
+    rdfs:label "economic value of equity"@en ;
+    dcterms:source "BCBS_IRRBB_2016_ba40d329#pg=34#t=list_item#n=5" .
+
+<http://my-project.com/instance/BCBS_IRRBB_2016_ba40d329/METRIC_economic_value_of_equity_d937c318> a my-proj:RegulatoryMetric ;
+    rdfs:label "economic value of equity"@en ;
+    dcterms:source "BCBS_IRRBB_2016_ba40d329#pg=45#t=list_item#n=1" .
+
+<http://my-project.com/instance/BCBS_IRRBB_2016_ba40d329/METRIC_economic_value_of_equity_edb3c9e4> a my-proj:RegulatoryMetric ;
+    rdfs:label "economic value of equity"@en ;
+    dcterms:source "BCBS_IRRBB_2016_ba40d329#pg=5#t=list_item#n=6" .
+
+<http://my-project.com/instance/BCBS_IRRBB_2016_ba40d329/METRIC_net_interest_income_00192083> a my-proj:RegulatoryMetric ;
+    rdfs:label "net interest income"@en ;
+    dcterms:source "BCBS_IRRBB_2016_ba40d329#pg=7#t=list_item#n=2" .
+
+<http://my-project.com/instance/BCBS_IRRBB_2016_ba40d329/METRIC_net_interest_income_edb3c9e4> a my-proj:RegulatoryMetric ;
+    rdfs:label "net interest income"@en ;
+    dcterms:source "BCBS_IRRBB_2016_ba40d329#pg=5#t=list_item#n=6" .
+
+<http://my-project.com/instance/BCBS_IRRBB_2016_ba40d329/PROCESS_ICAAP_405523fb> a my-proj:RegulatoryProcess ;
+    rdfs:label "ICAAP"@en ;
+    dcterms:source "BCBS_IRRBB_2016_ba40d329#pg=12#t=list_item#n=5" .
+
+<http://my-project.com/instance/BCBS_IRRBB_2016_ba40d329/PROCESS_ICAAP_784caf05> a my-proj:RegulatoryProcess ;
+    rdfs:label "ICAAP"@en ;
+    dcterms:source "BCBS_IRRBB_2016_ba40d329#pg=22#t=list_item#n=1" .
+
+<http://my-project.com/instance/BCBS_IRRBB_2016_ba40d329/PROCESS_ICAAP_976e0bed> a my-proj:RegulatoryProcess ;
+    rdfs:label "ICAAP"@en ;
+    dcterms:source "BCBS_IRRBB_2016_ba40d329#pg=22#t=heading#n=1" .
+
+<http://my-project.com/instance/BCBS_IRRBB_2016_ba40d329/PROCESS_ICAAP_c3f8ef36> a my-proj:RegulatoryProcess ;
+    rdfs:label "ICAAP"@en ;
+    dcterms:source "BCBS_IRRBB_2016_ba40d329#pg=22#t=list_item#n=14" .
+
+<http://my-project.com/instance/BCBS_IRRBB_2016_ba40d329/PROCESS_Internal_Capital_Adequacy_Assessment_Process_46e42e0f> a my-proj:RegulatoryProcess ;
+    rdfs:label "Internal Capital Adequacy Assessment Process"@en ;
+    dcterms:source "BCBS_IRRBB_2016_ba40d329#pg=12#t=list_item#n=3" .
+
+<http://my-project.com/instance/BCBS_IRRBB_2016_ba40d329/REGULATION_FRAMEWORK_Basel_II_framework_be8599e2> a my-proj:RegulatoryFramework ;
+    rdfs:label "Basel II framework"@en ;
+    dcterms:source "BCBS_IRRBB_2016_ba40d329#pg=6#t=list_item#n=2" .
+
+<http://my-project.com/instance/BCBS_IRRBB_2016_ba40d329/REGULATION_FRAMEWORK_Basel_capital_framework_b8837d7c> a my-proj:RegulatoryFramework ;
+    rdfs:label "Basel capital framework"@en ;
+    dcterms:source "BCBS_IRRBB_2016_ba40d329#pg=5#t=list_item#n=1" .
+
+<http://my-project.com/instance/BCBS_IRRBB_2016_ba40d329/REGULATION_FRAMEWORK_Pillar_1_2c378869> a my-proj:RegulatoryFramework ;
+    rdfs:label "Pillar 1"@en ;
+    dcterms:source "BCBS_IRRBB_2016_ba40d329#pg=5#t=list_item#n=3" .
+
+<http://my-project.com/instance/BCBS_IRRBB_2016_ba40d329/REGULATION_FRAMEWORK_Pillar_2_2c378869> a my-proj:RegulatoryFramework ;
+    rdfs:label "Pillar 2"@en ;
+    dcterms:source "BCBS_IRRBB_2016_ba40d329#pg=5#t=list_item#n=3" .
+
+<http://my-project.com/instance/BCBS_IRRBB_2016_ba40d329/REGULATION_FRAMEWORK_Pillar_3_2c378869> a my-proj:RegulatoryFramework ;
+    rdfs:label "Pillar 3"@en ;
+    dcterms:source "BCBS_IRRBB_2016_ba40d329#pg=5#t=list_item#n=3" .
+
+<http://my-project.com/instance/BCBS_IRRBB_2016_ba40d329/REGULATION_NAME_IRR_Principles_03b4e74c> a my-proj:Regulation ;
+    rdfs:label "IRR Principles"@en ;
+    dcterms:source "BCBS_IRRBB_2016_ba40d329#pg=3#t=paragraph#n=3" .
+
+<http://my-project.com/instance/BCBS_IRRBB_2016_ba40d329/REGULATION_NAME_IRR_Principles_1b693a24> a my-proj:Regulation ;
+    rdfs:label "IRR Principles"@en ;
+    dcterms:source "BCBS_IRRBB_2016_ba40d329#pg=6#t=list_item#n=3" .
+
+<http://my-project.com/instance/BCBS_IRRBB_2016_ba40d329/REGULATION_NAME_IRR_Principles_98afd212> a my-proj:Regulation ;
+    rdfs:label "IRR Principles"@en ;
+    dcterms:source "BCBS_IRRBB_2016_ba40d329#pg=8#t=heading#n=1" .
+
+<http://my-project.com/instance/BCBS_IRRBB_2016_ba40d329/REGULATION_NAME_IRR_Principles_a57be31b> a my-proj:Regulation ;
+    rdfs:label "IRR Principles"@en ;
+    dcterms:source "BCBS_IRRBB_2016_ba40d329#pg=5#t=list_item#n=2" .
+
+<http://my-project.com/instance/BCBS_IRRBB_2016_ba40d329/REGULATOR_BCBS_590501a2> a fibo-org-ldr:RegulatoryAgency ;
+    rdfs:label "BCBS"@en ;
+    dcterms:source "BCBS_IRRBB_2016_ba40d329#pg=6#t=caption#n=1" .
+
+<http://my-project.com/instance/BCBS_IRRBB_2016_ba40d329/REGULATOR_Basel_Committee_639a481d> a fibo-org-ldr:RegulatoryAgency ;
+    rdfs:label "Basel Committee"@en ;
+    dcterms:source "BCBS_IRRBB_2016_ba40d329#pg=48#t=list_item#n=2" .
+
+<http://my-project.com/instance/BCBS_IRRBB_2016_ba40d329/REGULATOR_Committee_2c378869> a fibo-org-ldr:RegulatoryAgency ;
+    rdfs:label "Committee"@en ;
+    dcterms:source "BCBS_IRRBB_2016_ba40d329#pg=5#t=list_item#n=3" .
+
+<http://my-project.com/instance/BCBS_IRRBB_2016_ba40d329/REGULATOR_Committee_695ecb9a> a fibo-org-ldr:RegulatoryAgency ;
+    rdfs:label "Committee"@en ;
+    dcterms:source "BCBS_IRRBB_2016_ba40d329#pg=50#t=paragraph#n=1" .
+
+<http://my-project.com/instance/BCBS_IRRBB_2016_ba40d329/REGULATOR_Committee_703e3b71> a fibo-org-ldr:RegulatoryAgency ;
+    rdfs:label "Committee"@en ;
+    dcterms:source "BCBS_IRRBB_2016_ba40d329#pg=8#t=caption#n=1" .
+
+<http://my-project.com/instance/BCBS_IRRBB_2016_ba40d329/REGULATOR_Committee_a57be31b> a fibo-org-ldr:RegulatoryAgency ;
+    rdfs:label "Committee"@en ;
+    dcterms:source "BCBS_IRRBB_2016_ba40d329#pg=5#t=list_item#n=2" .
+
+<http://my-project.com/instance/BCBS_IRRBB_2016_ba40d329/REGULATOR_Committee_b8837d7c> a fibo-org-ldr:RegulatoryAgency ;
+    rdfs:label "Committee"@en ;
+    dcterms:source "BCBS_IRRBB_2016_ba40d329#pg=5#t=list_item#n=1" .
+
+<http://my-project.com/instance/BCBS_IRRBB_2016_ba40d329/REGULATOR_Committee_bdb13325> a fibo-org-ldr:RegulatoryAgency ;
+    rdfs:label "Committee"@en ;
+    dcterms:source "BCBS_IRRBB_2016_ba40d329#pg=7#t=list_item#n=11" .
+
+<http://my-project.com/instance/BCBS_IRRBB_2016_ba40d329/REGULATOR_Committee_e8b5eb0c> a fibo-org-ldr:RegulatoryAgency ;
+    rdfs:label "Committee"@en ;
+    dcterms:source "BCBS_IRRBB_2016_ba40d329#pg=14#t=caption#n=1" .
+
+<http://my-project.com/instance/BCBS_IRRBB_2016_ba40d329/REGULATOR_Committee_fdf40bd5> a fibo-org-ldr:RegulatoryAgency ;
+    rdfs:label "Committee"@en ;
+    dcterms:source "BCBS_IRRBB_2016_ba40d329#pg=5#t=list_item#n=4" .
+
+<http://my-project.com/instance/BCBS_IRRBB_2016_ba40d329/RISK_TYPE_Basis_risk_1abe8978> a my-proj:InterestRateRisk ;
+    rdfs:label "Basis risk"@en ;
+    dcterms:source "BCBS_IRRBB_2016_ba40d329#pg=39#t=list_item#n=1" .
+
+<http://my-project.com/instance/BCBS_IRRBB_2016_ba40d329/RISK_TYPE_Basis_risk_89c104ee> a my-proj:InterestRateRisk ;
+    rdfs:label "Basis risk"@en ;
+    dcterms:source "BCBS_IRRBB_2016_ba40d329#pg=7#t=list_item#n=6" .
+
+<http://my-project.com/instance/BCBS_IRRBB_2016_ba40d329/RISK_TYPE_CSRBB_31e53e69> a my-proj:InterestRateRisk ;
+    rdfs:label "CSRBB"@en ;
+    dcterms:source "BCBS_IRRBB_2016_ba40d329#pg=7#t=list_item#n=9" .
+
+<http://my-project.com/instance/BCBS_IRRBB_2016_ba40d329/RISK_TYPE_CSRBB_7d00eb95> a my-proj:InterestRateRisk ;
+    rdfs:label "CSRBB"@en ;
+    dcterms:source "BCBS_IRRBB_2016_ba40d329#pg=37#t=list_item#n=7" .
+
+<http://my-project.com/instance/BCBS_IRRBB_2016_ba40d329/RISK_TYPE_CSRBB_80af5282> a my-proj:InterestRateRisk ;
+    rdfs:label "CSRBB"@en ;
+    dcterms:source "BCBS_IRRBB_2016_ba40d329#pg=3#t=list_item#n=3" .
+
+<http://my-project.com/instance/BCBS_IRRBB_2016_ba40d329/RISK_TYPE_CSRBB_b86c136d> a my-proj:InterestRateRisk ;
+    rdfs:label "CSRBB"@en ;
+    dcterms:source "BCBS_IRRBB_2016_ba40d329#pg=38#t=paragraph#n=2" .
+
+<http://my-project.com/instance/BCBS_IRRBB_2016_ba40d329/RISK_TYPE_CSRBB_d3a0804e> a my-proj:InterestRateRisk ;
+    rdfs:label "CSRBB"@en ;
+    dcterms:source "BCBS_IRRBB_2016_ba40d329#pg=38#t=heading#n=1" .
+
+<http://my-project.com/instance/BCBS_IRRBB_2016_ba40d329/RISK_TYPE_CSRBB_dad7a67f> a my-proj:InterestRateRisk ;
+    rdfs:label "CSRBB"@en ;
+    dcterms:source "BCBS_IRRBB_2016_ba40d329#pg=7#t=list_item#n=8" .
+
+<http://my-project.com/instance/BCBS_IRRBB_2016_ba40d329/RISK_TYPE_CSRBB_f563d5d0> a my-proj:InterestRateRisk ;
+    rdfs:label "CSRBB"@en ;
+    dcterms:source "BCBS_IRRBB_2016_ba40d329#pg=8#t=heading#n=2" .
+
+<http://my-project.com/instance/BCBS_IRRBB_2016_ba40d329/RISK_TYPE_Credit_spread_risk_80af5282> a my-proj:InterestRateRisk ;
+    rdfs:label "Credit spread risk"@en ;
+    dcterms:source "BCBS_IRRBB_2016_ba40d329#pg=3#t=list_item#n=3" .
+
+<http://my-project.com/instance/BCBS_IRRBB_2016_ba40d329/RISK_TYPE_Credit_spread_risk_dad7a67f> a my-proj:InterestRateRisk ;
+    rdfs:label "Credit spread risk"@en ;
+    dcterms:source "BCBS_IRRBB_2016_ba40d329#pg=7#t=list_item#n=8" .
+
+<http://my-project.com/instance/BCBS_IRRBB_2016_ba40d329/RISK_TYPE_Gap_risk_328a3b97> a my-proj:InterestRateRisk ;
+    rdfs:label "Gap risk"@en ;
+    dcterms:source "BCBS_IRRBB_2016_ba40d329#pg=38#t=list_item#n=1" .
+
+<http://my-project.com/instance/BCBS_IRRBB_2016_ba40d329/RISK_TYPE_Gap_risk_ab7014c5> a my-proj:InterestRateRisk ;
+    rdfs:label "Gap risk"@en ;
+    dcterms:source "BCBS_IRRBB_2016_ba40d329#pg=46#t=heading#n=1" .
+
+<http://my-project.com/instance/BCBS_IRRBB_2016_ba40d329/RISK_TYPE_Gap_risk_cdcaee51> a my-proj:InterestRateRisk ;
+    rdfs:label "Gap risk"@en ;
+    dcterms:source "BCBS_IRRBB_2016_ba40d329#pg=7#t=list_item#n=5" .
+
+<http://my-project.com/instance/BCBS_IRRBB_2016_ba40d329/RISK_TYPE_IRRBB_00192083> a my-proj:InterestRateRisk ;
+    rdfs:label "IRRBB"@en ;
+    dcterms:source "BCBS_IRRBB_2016_ba40d329#pg=7#t=list_item#n=2" .
+
+<http://my-project.com/instance/BCBS_IRRBB_2016_ba40d329/RISK_TYPE_IRRBB_034dcb0c> a my-proj:InterestRateRisk ;
+    rdfs:label "IRRBB"@en ;
+    dcterms:source "BCBS_IRRBB_2016_ba40d329#pg=10#t=list_item#n=2" .
+
+<http://my-project.com/instance/BCBS_IRRBB_2016_ba40d329/RISK_TYPE_IRRBB_044a761c> a my-proj:InterestRateRisk ;
+    rdfs:label "IRRBB"@en ;
+    dcterms:source "BCBS_IRRBB_2016_ba40d329#pg=13#t=list_item#n=2" .
+
+<http://my-project.com/instance/BCBS_IRRBB_2016_ba40d329/RISK_TYPE_IRRBB_074a547d> a my-proj:InterestRateRisk ;
+    rdfs:label "IRRBB"@en ;
+    dcterms:source "BCBS_IRRBB_2016_ba40d329#pg=25#t=list_item#n=7" .
+
+<http://my-project.com/instance/BCBS_IRRBB_2016_ba40d329/RISK_TYPE_IRRBB_0ac3aa56> a my-proj:InterestRateRisk ;
+    rdfs:label "IRRBB"@en ;
+    dcterms:source "BCBS_IRRBB_2016_ba40d329#pg=36#t=heading#n=4" .
+
+<http://my-project.com/instance/BCBS_IRRBB_2016_ba40d329/RISK_TYPE_IRRBB_0db1e4cb> a my-proj:InterestRateRisk ;
+    rdfs:label "IRRBB"@en ;
+    dcterms:source "BCBS_IRRBB_2016_ba40d329#pg=25#t=list_item#n=9" .
+
+<http://my-project.com/instance/BCBS_IRRBB_2016_ba40d329/RISK_TYPE_IRRBB_11843037> a my-proj:InterestRateRisk ;
+    rdfs:label "IRRBB"@en ;
+    dcterms:source "BCBS_IRRBB_2016_ba40d329#pg=14#t=list_item#n=3" .
+
+<http://my-project.com/instance/BCBS_IRRBB_2016_ba40d329/RISK_TYPE_IRRBB_12b94018> a my-proj:InterestRateRisk ;
+    rdfs:label "IRRBB"@en ;
+    dcterms:source "BCBS_IRRBB_2016_ba40d329#pg=9#t=list_item#n=5" .
+
+<http://my-project.com/instance/BCBS_IRRBB_2016_ba40d329/RISK_TYPE_IRRBB_13586775> a my-proj:InterestRateRisk ;
+    rdfs:label "IRRBB"@en ;
+    dcterms:source "BCBS_IRRBB_2016_ba40d329#pg=10#t=list_item#n=6" .
+
+<http://my-project.com/instance/BCBS_IRRBB_2016_ba40d329/RISK_TYPE_IRRBB_139bf371> a my-proj:InterestRateRisk ;
+    rdfs:label "IRRBB"@en ;
+    dcterms:source "BCBS_IRRBB_2016_ba40d329#pg=24#t=list_item#n=12" .
+
+<http://my-project.com/instance/BCBS_IRRBB_2016_ba40d329/RISK_TYPE_IRRBB_142631af> a my-proj:InterestRateRisk ;
+    rdfs:label "IRRBB"@en ;
+    dcterms:source "BCBS_IRRBB_2016_ba40d329#pg=13#t=list_item#n=3" .
+
+<http://my-project.com/instance/BCBS_IRRBB_2016_ba40d329/RISK_TYPE_IRRBB_19b46656> a my-proj:InterestRateRisk ;
+    rdfs:label "IRRBB"@en ;
+    dcterms:source "BCBS_IRRBB_2016_ba40d329#pg=18#t=list_item#n=9" .
+
+<http://my-project.com/instance/BCBS_IRRBB_2016_ba40d329/RISK_TYPE_IRRBB_1abe8978> a my-proj:InterestRateRisk ;
+    rdfs:label "IRRBB"@en ;
+    dcterms:source "BCBS_IRRBB_2016_ba40d329#pg=39#t=list_item#n=1" .
+
+<http://my-project.com/instance/BCBS_IRRBB_2016_ba40d329/RISK_TYPE_IRRBB_1b693a24> a my-proj:InterestRateRisk ;
+    rdfs:label "IRRBB"@en ;
+    dcterms:source "BCBS_IRRBB_2016_ba40d329#pg=6#t=list_item#n=3" .
+
+<http://my-project.com/instance/BCBS_IRRBB_2016_ba40d329/RISK_TYPE_IRRBB_1ec5fda9> a my-proj:InterestRateRisk ;
+    rdfs:label "IRRBB"@en ;
+    dcterms:source "BCBS_IRRBB_2016_ba40d329#pg=8#t=list_item#n=5" .
+
+<http://my-project.com/instance/BCBS_IRRBB_2016_ba40d329/RISK_TYPE_IRRBB_204d931d> a my-proj:InterestRateRisk ;
+    rdfs:label "IRRBB"@en ;
+    dcterms:source "BCBS_IRRBB_2016_ba40d329#pg=9#t=list_item#n=1" .
+
+<http://my-project.com/instance/BCBS_IRRBB_2016_ba40d329/RISK_TYPE_IRRBB_24ddf347> a my-proj:InterestRateRisk ;
+    rdfs:label "IRRBB"@en ;
+    dcterms:source "BCBS_IRRBB_2016_ba40d329#pg=18#t=list_item#n=8" .
+
+<http://my-project.com/instance/BCBS_IRRBB_2016_ba40d329/RISK_TYPE_IRRBB_259c9856> a my-proj:InterestRateRisk ;
+    rdfs:label "IRRBB"@en ;
+    dcterms:source "BCBS_IRRBB_2016_ba40d329#pg=23#t=list_item#n=10" .
+
+<http://my-project.com/instance/BCBS_IRRBB_2016_ba40d329/RISK_TYPE_IRRBB_28dcc667> a my-proj:InterestRateRisk ;
+    rdfs:label "IRRBB"@en ;
+    dcterms:source "BCBS_IRRBB_2016_ba40d329#pg=24#t=list_item#n=8" .
+
+<http://my-project.com/instance/BCBS_IRRBB_2016_ba40d329/RISK_TYPE_IRRBB_2a26c688> a my-proj:InterestRateRisk ;
+    rdfs:label "IRRBB"@en ;
+    dcterms:source "BCBS_IRRBB_2016_ba40d329#pg=42#t=paragraph#n=1" .
+
+<http://my-project.com/instance/BCBS_IRRBB_2016_ba40d329/RISK_TYPE_IRRBB_2ab3685e> a my-proj:InterestRateRisk ;
+    rdfs:label "IRRBB"@en ;
+    dcterms:source "BCBS_IRRBB_2016_ba40d329#pg=26#t=list_item#n=11" .
+
+<http://my-project.com/instance/BCBS_IRRBB_2016_ba40d329/RISK_TYPE_IRRBB_2c378869> a my-proj:InterestRateRisk ;
+    rdfs:label "IRRBB"@en ;
+    dcterms:source "BCBS_IRRBB_2016_ba40d329#pg=5#t=list_item#n=3" .
+
+<http://my-project.com/instance/BCBS_IRRBB_2016_ba40d329/RISK_TYPE_IRRBB_2c51dda9> a my-proj:InterestRateRisk ;
+    rdfs:label "IRRBB"@en ;
+    dcterms:source "BCBS_IRRBB_2016_ba40d329#pg=8#t=list_item#n=2" .
+
+<http://my-project.com/instance/BCBS_IRRBB_2016_ba40d329/RISK_TYPE_IRRBB_2cd43ea6> a my-proj:InterestRateRisk ;
+    rdfs:label "IRRBB"@en ;
+    dcterms:source "BCBS_IRRBB_2016_ba40d329#pg=17#t=list_item#n=9" .
+
+<http://my-project.com/instance/BCBS_IRRBB_2016_ba40d329/RISK_TYPE_IRRBB_2f90597c> a my-proj:InterestRateRisk ;
+    rdfs:label "IRRBB"@en ;
+    dcterms:source "BCBS_IRRBB_2016_ba40d329#pg=26#t=list_item#n=1" .
+
+<http://my-project.com/instance/BCBS_IRRBB_2016_ba40d329/RISK_TYPE_IRRBB_31e53e69> a my-proj:InterestRateRisk ;
+    rdfs:label "IRRBB"@en ;
+    dcterms:source "BCBS_IRRBB_2016_ba40d329#pg=7#t=list_item#n=9" .
+
+<http://my-project.com/instance/BCBS_IRRBB_2016_ba40d329/RISK_TYPE_IRRBB_31eebb78> a my-proj:InterestRateRisk ;
+    rdfs:label "IRRBB"@en ;
+    dcterms:source "BCBS_IRRBB_2016_ba40d329#pg=18#t=list_item#n=7" .
+
+<http://my-project.com/instance/BCBS_IRRBB_2016_ba40d329/RISK_TYPE_IRRBB_35a33bb7> a my-proj:InterestRateRisk ;
+    rdfs:label "IRRBB"@en ;
+    dcterms:source "BCBS_IRRBB_2016_ba40d329#pg=38#t=heading#n=2" .
+
+<http://my-project.com/instance/BCBS_IRRBB_2016_ba40d329/RISK_TYPE_IRRBB_3a61d7e8> a my-proj:InterestRateRisk ;
+    rdfs:label "IRRBB"@en ;
+    dcterms:source "BCBS_IRRBB_2016_ba40d329#pg=7#t=list_item#n=1" .
+
+<http://my-project.com/instance/BCBS_IRRBB_2016_ba40d329/RISK_TYPE_IRRBB_3b93c9ba> a my-proj:InterestRateRisk ;
+    rdfs:label "IRRBB"@en ;
+    dcterms:source "BCBS_IRRBB_2016_ba40d329#pg=38#t=paragraph#n=3" .
+
+<http://my-project.com/instance/BCBS_IRRBB_2016_ba40d329/RISK_TYPE_IRRBB_405523fb> a my-proj:InterestRateRisk ;
+    rdfs:label "IRRBB"@en ;
+    dcterms:source "BCBS_IRRBB_2016_ba40d329#pg=12#t=list_item#n=5" .
+
+<http://my-project.com/instance/BCBS_IRRBB_2016_ba40d329/RISK_TYPE_IRRBB_428dc88b> a my-proj:InterestRateRisk ;
+    rdfs:label "IRRBB"@en ;
+    dcterms:source "BCBS_IRRBB_2016_ba40d329#pg=25#t=list_item#n=3" .
+
+<http://my-project.com/instance/BCBS_IRRBB_2016_ba40d329/RISK_TYPE_IRRBB_45e11d96> a my-proj:InterestRateRisk ;
+    rdfs:label "IRRBB"@en ;
+    dcterms:source "BCBS_IRRBB_2016_ba40d329#pg=36#t=paragraph#n=1" .
+
+<http://my-project.com/instance/BCBS_IRRBB_2016_ba40d329/RISK_TYPE_IRRBB_48027a0a> a my-proj:InterestRateRisk ;
+    rdfs:label "IRRBB"@en ;
+    dcterms:source "BCBS_IRRBB_2016_ba40d329#pg=10#t=list_item#n=1" .
+
+<http://my-project.com/instance/BCBS_IRRBB_2016_ba40d329/RISK_TYPE_IRRBB_498a7d57> a my-proj:InterestRateRisk ;
+    rdfs:label "IRRBB"@en ;
+    dcterms:source "BCBS_IRRBB_2016_ba40d329#pg=3#t=list_item#n=1" .
+
+<http://my-project.com/instance/BCBS_IRRBB_2016_ba40d329/RISK_TYPE_IRRBB_4e862566> a my-proj:InterestRateRisk ;
+    rdfs:label "IRRBB"@en ;
+    dcterms:source "BCBS_IRRBB_2016_ba40d329#pg=22#t=list_item#n=2" .
+
+<http://my-project.com/instance/BCBS_IRRBB_2016_ba40d329/RISK_TYPE_IRRBB_51badd52> a my-proj:InterestRateRisk ;
+    rdfs:label "IRRBB"@en ;
+    dcterms:source "BCBS_IRRBB_2016_ba40d329#pg=9#t=list_item#n=11" .
+
+<http://my-project.com/instance/BCBS_IRRBB_2016_ba40d329/RISK_TYPE_IRRBB_51bb1926> a my-proj:InterestRateRisk ;
+    rdfs:label "IRRBB"@en ;
+    dcterms:source "BCBS_IRRBB_2016_ba40d329#pg=18#t=list_item#n=3" .
+
+<http://my-project.com/instance/BCBS_IRRBB_2016_ba40d329/RISK_TYPE_IRRBB_520141cb> a my-proj:InterestRateRisk ;
+    rdfs:label "IRRBB"@en ;
+    dcterms:source "BCBS_IRRBB_2016_ba40d329#pg=15#t=list_item#n=2" .
+
+<http://my-project.com/instance/BCBS_IRRBB_2016_ba40d329/RISK_TYPE_IRRBB_5a56da33> a my-proj:InterestRateRisk ;
+    rdfs:label "IRRBB"@en ;
+    dcterms:source "BCBS_IRRBB_2016_ba40d329#pg=11#t=list_item#n=2" .
+
+<http://my-project.com/instance/BCBS_IRRBB_2016_ba40d329/RISK_TYPE_IRRBB_5ca7d002> a my-proj:InterestRateRisk ;
+    rdfs:label "IRRBB"@en ;
+    dcterms:source "BCBS_IRRBB_2016_ba40d329#pg=13#t=list_item#n=6" .
+
+<http://my-project.com/instance/BCBS_IRRBB_2016_ba40d329/RISK_TYPE_IRRBB_5d956388> a my-proj:InterestRateRisk ;
+    rdfs:label "IRRBB"@en ;
+    dcterms:source "BCBS_IRRBB_2016_ba40d329#pg=16#t=list_item#n=5" .
+
+<http://my-project.com/instance/BCBS_IRRBB_2016_ba40d329/RISK_TYPE_IRRBB_5e15a773> a my-proj:InterestRateRisk ;
+    rdfs:label "IRRBB"@en ;
+    dcterms:source "BCBS_IRRBB_2016_ba40d329#pg=17#t=list_item#n=6" .
+
+<http://my-project.com/instance/BCBS_IRRBB_2016_ba40d329/RISK_TYPE_IRRBB_5e72e804> a my-proj:InterestRateRisk ;
+    rdfs:label "IRRBB"@en ;
+    dcterms:source "BCBS_IRRBB_2016_ba40d329#pg=25#t=list_item#n=6" .
+
+<http://my-project.com/instance/BCBS_IRRBB_2016_ba40d329/RISK_TYPE_IRRBB_5eac5be2> a my-proj:InterestRateRisk ;
+    rdfs:label "IRRBB"@en ;
+    dcterms:source "BCBS_IRRBB_2016_ba40d329#pg=8#t=list_item#n=4" .
+
+<http://my-project.com/instance/BCBS_IRRBB_2016_ba40d329/RISK_TYPE_IRRBB_5f2a0594> a my-proj:InterestRateRisk ;
+    rdfs:label "IRRBB"@en ;
+    dcterms:source "BCBS_IRRBB_2016_ba40d329#pg=22#t=list_item#n=4" .
+
+<http://my-project.com/instance/BCBS_IRRBB_2016_ba40d329/RISK_TYPE_IRRBB_5f58266a> a my-proj:InterestRateRisk ;
+    rdfs:label "IRRBB"@en ;
+    dcterms:source "BCBS_IRRBB_2016_ba40d329#pg=39#t=list_item#n=2" .
+
+<http://my-project.com/instance/BCBS_IRRBB_2016_ba40d329/RISK_TYPE_IRRBB_62bed601> a my-proj:InterestRateRisk ;
+    rdfs:label "IRRBB"@en ;
+    dcterms:source "BCBS_IRRBB_2016_ba40d329#pg=16#t=list_item#n=4" .
+
+<http://my-project.com/instance/BCBS_IRRBB_2016_ba40d329/RISK_TYPE_IRRBB_659b05fa> a my-proj:InterestRateRisk ;
+    rdfs:label "IRRBB"@en ;
+    dcterms:source "BCBS_IRRBB_2016_ba40d329#pg=16#t=list_item#n=3" .
+
+<http://my-project.com/instance/BCBS_IRRBB_2016_ba40d329/RISK_TYPE_IRRBB_67980924> a my-proj:InterestRateRisk ;
+    rdfs:label "IRRBB"@en ;
+    dcterms:source "BCBS_IRRBB_2016_ba40d329#pg=24#t=list_item#n=16" .
+
+<http://my-project.com/instance/BCBS_IRRBB_2016_ba40d329/RISK_TYPE_IRRBB_6a626248> a my-proj:InterestRateRisk ;
+    rdfs:label "IRRBB"@en ;
+    dcterms:source "BCBS_IRRBB_2016_ba40d329#pg=12#t=list_item#n=4" .
+
+<http://my-project.com/instance/BCBS_IRRBB_2016_ba40d329/RISK_TYPE_IRRBB_6aa3d7b3> a my-proj:InterestRateRisk ;
+    rdfs:label "IRRBB"@en ;
+    dcterms:source "BCBS_IRRBB_2016_ba40d329#pg=20#t=heading#n=1" .
+
+<http://my-project.com/instance/BCBS_IRRBB_2016_ba40d329/RISK_TYPE_IRRBB_6cb63b75> a my-proj:InterestRateRisk ;
+    rdfs:label "IRRBB"@en ;
+    dcterms:source "BCBS_IRRBB_2016_ba40d329#pg=12#t=list_item#n=6" .
+
+<http://my-project.com/instance/BCBS_IRRBB_2016_ba40d329/RISK_TYPE_IRRBB_71de060f> a my-proj:InterestRateRisk ;
+    rdfs:label "IRRBB"@en ;
+    dcterms:source "BCBS_IRRBB_2016_ba40d329#pg=25#t=list_item#n=2" .
+
+<http://my-project.com/instance/BCBS_IRRBB_2016_ba40d329/RISK_TYPE_IRRBB_7345de37> a my-proj:InterestRateRisk ;
+    rdfs:label "IRRBB"@en ;
+    dcterms:source "BCBS_IRRBB_2016_ba40d329#pg=48#t=paragraph#n=1" .
+
+<http://my-project.com/instance/BCBS_IRRBB_2016_ba40d329/RISK_TYPE_IRRBB_74a8f315> a my-proj:InterestRateRisk ;
+    rdfs:label "IRRBB"@en ;
+    dcterms:source "BCBS_IRRBB_2016_ba40d329#pg=10#t=list_item#n=4" .
+
+<http://my-project.com/instance/BCBS_IRRBB_2016_ba40d329/RISK_TYPE_IRRBB_752b466d> a my-proj:InterestRateRisk ;
+    rdfs:label "IRRBB"@en ;
+    dcterms:source "BCBS_IRRBB_2016_ba40d329#pg=36#t=caption#n=1" .
+
+<http://my-project.com/instance/BCBS_IRRBB_2016_ba40d329/RISK_TYPE_IRRBB_77d30013> a my-proj:InterestRateRisk ;
+    rdfs:label "IRRBB"@en ;
+    dcterms:source "BCBS_IRRBB_2016_ba40d329#pg=16#t=paragraph#n=1" .
+
+<http://my-project.com/instance/BCBS_IRRBB_2016_ba40d329/RISK_TYPE_IRRBB_784caf05> a my-proj:InterestRateRisk ;
+    rdfs:label "IRRBB"@en ;
+    dcterms:source "BCBS_IRRBB_2016_ba40d329#pg=22#t=list_item#n=1" .
+
+<http://my-project.com/instance/BCBS_IRRBB_2016_ba40d329/RISK_TYPE_IRRBB_784e7576> a my-proj:InterestRateRisk ;
+    rdfs:label "IRRBB"@en ;
+    dcterms:source "BCBS_IRRBB_2016_ba40d329#pg=14#t=list_item#n=7" .
+
+<http://my-project.com/instance/BCBS_IRRBB_2016_ba40d329/RISK_TYPE_IRRBB_7d00eb95> a my-proj:InterestRateRisk ;
+    rdfs:label "IRRBB"@en ;
+    dcterms:source "BCBS_IRRBB_2016_ba40d329#pg=37#t=list_item#n=7" .
+
+<http://my-project.com/instance/BCBS_IRRBB_2016_ba40d329/RISK_TYPE_IRRBB_85f556ce> a my-proj:InterestRateRisk ;
+    rdfs:label "IRRBB"@en ;
+    dcterms:source "BCBS_IRRBB_2016_ba40d329#pg=17#t=list_item#n=8" .
+
+<http://my-project.com/instance/BCBS_IRRBB_2016_ba40d329/RISK_TYPE_IRRBB_8c1c947a> a my-proj:InterestRateRisk ;
+    rdfs:label "IRRBB"@en ;
+    dcterms:source "BCBS_IRRBB_2016_ba40d329#pg=36#t=list_item#n=1" .
+
+<http://my-project.com/instance/BCBS_IRRBB_2016_ba40d329/RISK_TYPE_IRRBB_8e5f384d> a my-proj:InterestRateRisk ;
+    rdfs:label "IRRBB"@en ;
+    dcterms:source "BCBS_IRRBB_2016_ba40d329#pg=6#t=list_item#n=1" .
+
+<http://my-project.com/instance/BCBS_IRRBB_2016_ba40d329/RISK_TYPE_IRRBB_9073f152> a my-proj:InterestRateRisk ;
+    rdfs:label "IRRBB"@en ;
+    dcterms:source "BCBS_IRRBB_2016_ba40d329#pg=24#t=list_item#n=4" .
+
+<http://my-project.com/instance/BCBS_IRRBB_2016_ba40d329/RISK_TYPE_IRRBB_94e55de8> a my-proj:InterestRateRisk ;
+    rdfs:label "IRRBB"@en ;
+    dcterms:source "BCBS_IRRBB_2016_ba40d329#pg=5#t=list_item#n=7" .
+
+<http://my-project.com/instance/BCBS_IRRBB_2016_ba40d329/RISK_TYPE_IRRBB_95c4ba05> a my-proj:InterestRateRisk ;
+    rdfs:label "IRRBB"@en ;
+    dcterms:source "BCBS_IRRBB_2016_ba40d329#pg=25#t=list_item#n=4" .
+
+<http://my-project.com/instance/BCBS_IRRBB_2016_ba40d329/RISK_TYPE_IRRBB_96066a8c> a my-proj:InterestRateRisk ;
+    rdfs:label "IRRBB"@en ;
+    dcterms:source "BCBS_IRRBB_2016_ba40d329#pg=9#t=list_item#n=7" .
+
+<http://my-project.com/instance/BCBS_IRRBB_2016_ba40d329/RISK_TYPE_IRRBB_976e0bed> a my-proj:InterestRateRisk ;
+    rdfs:label "IRRBB"@en ;
+    dcterms:source "BCBS_IRRBB_2016_ba40d329#pg=22#t=heading#n=1" .
+
+<http://my-project.com/instance/BCBS_IRRBB_2016_ba40d329/RISK_TYPE_IRRBB_98649716> a my-proj:InterestRateRisk ;
+    rdfs:label "IRRBB"@en ;
+    dcterms:source "BCBS_IRRBB_2016_ba40d329#pg=24#t=list_item#n=9" .
+
+<http://my-project.com/instance/BCBS_IRRBB_2016_ba40d329/RISK_TYPE_IRRBB_98c1841b> a my-proj:InterestRateRisk ;
+    rdfs:label "IRRBB"@en ;
+    dcterms:source "BCBS_IRRBB_2016_ba40d329#pg=18#t=list_item#n=10" .
+
+<http://my-project.com/instance/BCBS_IRRBB_2016_ba40d329/RISK_TYPE_IRRBB_9964fb36> a my-proj:InterestRateRisk ;
+    rdfs:label "IRRBB"@en ;
+    dcterms:source "BCBS_IRRBB_2016_ba40d329#pg=23#t=list_item#n=12" .
+
+<http://my-project.com/instance/BCBS_IRRBB_2016_ba40d329/RISK_TYPE_IRRBB_9b120d0e> a my-proj:InterestRateRisk ;
+    rdfs:label "IRRBB"@en ;
+    dcterms:source "BCBS_IRRBB_2016_ba40d329#pg=22#t=heading#n=2" .
+
+<http://my-project.com/instance/BCBS_IRRBB_2016_ba40d329/RISK_TYPE_IRRBB_9cc220d6> a my-proj:InterestRateRisk ;
+    rdfs:label "IRRBB"@en ;
+    dcterms:source "BCBS_IRRBB_2016_ba40d329#pg=24#t=list_item#n=5" .
+
+<http://my-project.com/instance/BCBS_IRRBB_2016_ba40d329/RISK_TYPE_IRRBB_9e509881> a my-proj:InterestRateRisk ;
+    rdfs:label "IRRBB"@en ;
+    dcterms:source "BCBS_IRRBB_2016_ba40d329#pg=26#t=list_item#n=7" .
+
+<http://my-project.com/instance/BCBS_IRRBB_2016_ba40d329/RISK_TYPE_IRRBB_a0ca72c7> a my-proj:InterestRateRisk ;
+    rdfs:label "IRRBB"@en ;
+    dcterms:source "BCBS_IRRBB_2016_ba40d329#pg=44#t=paragraph#n=3" .
+
+<http://my-project.com/instance/BCBS_IRRBB_2016_ba40d329/RISK_TYPE_IRRBB_a115ca55> a my-proj:InterestRateRisk ;
+    rdfs:label "IRRBB"@en ;
+    dcterms:source "BCBS_IRRBB_2016_ba40d329#pg=9#t=list_item#n=10" .
+
+<http://my-project.com/instance/BCBS_IRRBB_2016_ba40d329/RISK_TYPE_IRRBB_a4acd56a> a my-proj:InterestRateRisk ;
+    rdfs:label "IRRBB"@en ;
+    dcterms:source "BCBS_IRRBB_2016_ba40d329#pg=22#t=list_item#n=5" .
+
+<http://my-project.com/instance/BCBS_IRRBB_2016_ba40d329/RISK_TYPE_IRRBB_a59e2080> a my-proj:InterestRateRisk ;
+    rdfs:label "IRRBB"@en ;
+    dcterms:source "BCBS_IRRBB_2016_ba40d329#pg=16#t=list_item#n=8" .
+
+<http://my-project.com/instance/BCBS_IRRBB_2016_ba40d329/RISK_TYPE_IRRBB_a864a19f> a my-proj:InterestRateRisk ;
+    rdfs:label "IRRBB"@en ;
+    dcterms:source "BCBS_IRRBB_2016_ba40d329#pg=11#t=list_item#n=1" .
+
+<http://my-project.com/instance/BCBS_IRRBB_2016_ba40d329/RISK_TYPE_IRRBB_a876677c> a my-proj:InterestRateRisk ;
+    rdfs:label "IRRBB"@en ;
+    dcterms:source "BCBS_IRRBB_2016_ba40d329#pg=36#t=heading#n=3" .
+
+<http://my-project.com/instance/BCBS_IRRBB_2016_ba40d329/RISK_TYPE_IRRBB_a8b9b111> a my-proj:InterestRateRisk ;
+    rdfs:label "IRRBB"@en ;
+    dcterms:source "BCBS_IRRBB_2016_ba40d329#pg=20#t=paragraph#n=3" .
+
+<http://my-project.com/instance/BCBS_IRRBB_2016_ba40d329/RISK_TYPE_IRRBB_a8d5e556> a my-proj:InterestRateRisk ;
+    rdfs:label "IRRBB"@en ;
+    dcterms:source "BCBS_IRRBB_2016_ba40d329#pg=43#t=paragraph#n=2" .
+
+<http://my-project.com/instance/BCBS_IRRBB_2016_ba40d329/RISK_TYPE_IRRBB_a93678b1> a my-proj:InterestRateRisk ;
+    rdfs:label "IRRBB"@en ;
+    dcterms:source "BCBS_IRRBB_2016_ba40d329#pg=16#t=list_item#n=2" .
+
+<http://my-project.com/instance/BCBS_IRRBB_2016_ba40d329/RISK_TYPE_IRRBB_af79a306> a my-proj:InterestRateRisk ;
+    rdfs:label "IRRBB"@en ;
+    dcterms:source "BCBS_IRRBB_2016_ba40d329#pg=11#t=list_item#n=3" .
+
+<http://my-project.com/instance/BCBS_IRRBB_2016_ba40d329/RISK_TYPE_IRRBB_b6252876> a my-proj:InterestRateRisk ;
+    rdfs:label "IRRBB"@en ;
+    dcterms:source "BCBS_IRRBB_2016_ba40d329#pg=9#t=list_item#n=8" .
+
+<http://my-project.com/instance/BCBS_IRRBB_2016_ba40d329/RISK_TYPE_IRRBB_b86c136d> a my-proj:InterestRateRisk ;
+    rdfs:label "IRRBB"@en ;
+    dcterms:source "BCBS_IRRBB_2016_ba40d329#pg=38#t=paragraph#n=2" .
+
+<http://my-project.com/instance/BCBS_IRRBB_2016_ba40d329/RISK_TYPE_IRRBB_b8837d7c> a my-proj:InterestRateRisk ;
+    rdfs:label "IRRBB"@en ;
+    dcterms:source "BCBS_IRRBB_2016_ba40d329#pg=5#t=list_item#n=1" .
+
+<http://my-project.com/instance/BCBS_IRRBB_2016_ba40d329/RISK_TYPE_IRRBB_b88c6d94> a my-proj:InterestRateRisk ;
+    rdfs:label "IRRBB"@en ;
+    dcterms:source "BCBS_IRRBB_2016_ba40d329#pg=16#t=list_item#n=9" .
+
+<http://my-project.com/instance/BCBS_IRRBB_2016_ba40d329/RISK_TYPE_IRRBB_ba3d6538> a my-proj:InterestRateRisk ;
+    rdfs:label "IRRBB"@en ;
+    dcterms:source "BCBS_IRRBB_2016_ba40d329#pg=7#t=list_item#n=3" .
+
+<http://my-project.com/instance/BCBS_IRRBB_2016_ba40d329/RISK_TYPE_IRRBB_bdb13325> a my-proj:InterestRateRisk ;
+    rdfs:label "IRRBB"@en ;
+    dcterms:source "BCBS_IRRBB_2016_ba40d329#pg=7#t=list_item#n=11" .
+
+<http://my-project.com/instance/BCBS_IRRBB_2016_ba40d329/RISK_TYPE_IRRBB_be8599e2> a my-proj:InterestRateRisk ;
+    rdfs:label "IRRBB"@en ;
+    dcterms:source "BCBS_IRRBB_2016_ba40d329#pg=6#t=list_item#n=2" .
+
+<http://my-project.com/instance/BCBS_IRRBB_2016_ba40d329/RISK_TYPE_IRRBB_c008d0ae> a my-proj:InterestRateRisk ;
+    rdfs:label "IRRBB"@en ;
+    dcterms:source "BCBS_IRRBB_2016_ba40d329#pg=22#t=list_item#n=7" .
+
+<http://my-project.com/instance/BCBS_IRRBB_2016_ba40d329/RISK_TYPE_IRRBB_c0967d06> a my-proj:InterestRateRisk ;
+    rdfs:label "IRRBB"@en ;
+    dcterms:source "BCBS_IRRBB_2016_ba40d329#pg=10#t=list_item#n=5" .
+
+<http://my-project.com/instance/BCBS_IRRBB_2016_ba40d329/RISK_TYPE_IRRBB_c0a7d0f9> a my-proj:InterestRateRisk ;
+    rdfs:label "IRRBB"@en ;
+    dcterms:source "BCBS_IRRBB_2016_ba40d329#pg=42#t=list_item#n=6" .
+
+<http://my-project.com/instance/BCBS_IRRBB_2016_ba40d329/RISK_TYPE_IRRBB_c19e532d> a my-proj:InterestRateRisk ;
+    rdfs:label "IRRBB"@en ;
+    dcterms:source "BCBS_IRRBB_2016_ba40d329#pg=10#t=caption#n=1" .
+
+<http://my-project.com/instance/BCBS_IRRBB_2016_ba40d329/RISK_TYPE_IRRBB_c21423cd> a my-proj:InterestRateRisk ;
+    rdfs:label "IRRBB"@en ;
+    dcterms:source "BCBS_IRRBB_2016_ba40d329#pg=13#t=list_item#n=8" .
+
+<http://my-project.com/instance/BCBS_IRRBB_2016_ba40d329/RISK_TYPE_IRRBB_c28d206f> a my-proj:InterestRateRisk ;
+    rdfs:label "IRRBB"@en ;
+    dcterms:source "BCBS_IRRBB_2016_ba40d329#pg=42#t=paragraph#n=3" .
+
+<http://my-project.com/instance/BCBS_IRRBB_2016_ba40d329/RISK_TYPE_IRRBB_c3f8ef36> a my-proj:InterestRateRisk ;
+    rdfs:label "IRRBB"@en ;
+    dcterms:source "BCBS_IRRBB_2016_ba40d329#pg=22#t=list_item#n=14" .
+
+<http://my-project.com/instance/BCBS_IRRBB_2016_ba40d329/RISK_TYPE_IRRBB_c5d0de02> a my-proj:InterestRateRisk ;
+    rdfs:label "IRRBB"@en ;
+    dcterms:source "BCBS_IRRBB_2016_ba40d329#pg=14#t=list_item#n=9" .
+
+<http://my-project.com/instance/BCBS_IRRBB_2016_ba40d329/RISK_TYPE_IRRBB_c8016904> a my-proj:InterestRateRisk ;
+    rdfs:label "IRRBB"@en ;
+    dcterms:source "BCBS_IRRBB_2016_ba40d329#pg=23#t=list_item#n=1" .
+
+<http://my-project.com/instance/BCBS_IRRBB_2016_ba40d329/RISK_TYPE_IRRBB_c807b19d> a my-proj:InterestRateRisk ;
+    rdfs:label "IRRBB"@en ;
+    dcterms:source "BCBS_IRRBB_2016_ba40d329#pg=24#t=list_item#n=1" .
+
+<http://my-project.com/instance/BCBS_IRRBB_2016_ba40d329/RISK_TYPE_IRRBB_c967b38b> a my-proj:InterestRateRisk ;
+    rdfs:label "IRRBB"@en ;
+    dcterms:source "BCBS_IRRBB_2016_ba40d329#pg=40#t=paragraph#n=2" .
+
+<http://my-project.com/instance/BCBS_IRRBB_2016_ba40d329/RISK_TYPE_IRRBB_c9c0403e> a my-proj:InterestRateRisk ;
+    rdfs:label "IRRBB"@en ;
+    dcterms:source "BCBS_IRRBB_2016_ba40d329#pg=5#t=list_item#n=5" .
+
+<http://my-project.com/instance/BCBS_IRRBB_2016_ba40d329/RISK_TYPE_IRRBB_c9c98498> a my-proj:InterestRateRisk ;
+    rdfs:label "IRRBB"@en ;
+    dcterms:source "BCBS_IRRBB_2016_ba40d329#pg=9#t=list_item#n=4" .
+
+<http://my-project.com/instance/BCBS_IRRBB_2016_ba40d329/RISK_TYPE_IRRBB_c9cf56a6> a my-proj:InterestRateRisk ;
+    rdfs:label "IRRBB"@en ;
+    dcterms:source "BCBS_IRRBB_2016_ba40d329#pg=42#t=list_item#n=2" .
+
+<http://my-project.com/instance/BCBS_IRRBB_2016_ba40d329/RISK_TYPE_IRRBB_cbae1ce5> a my-proj:InterestRateRisk ;
+    rdfs:label "IRRBB"@en ;
+    dcterms:source "BCBS_IRRBB_2016_ba40d329#pg=42#t=paragraph#n=2" .
+
+<http://my-project.com/instance/BCBS_IRRBB_2016_ba40d329/RISK_TYPE_IRRBB_cc0aab6d> a my-proj:InterestRateRisk ;
+    rdfs:label "IRRBB"@en ;
+    dcterms:source "BCBS_IRRBB_2016_ba40d329#pg=9#t=list_item#n=9" .
+
+<http://my-project.com/instance/BCBS_IRRBB_2016_ba40d329/RISK_TYPE_IRRBB_cc8132e8> a my-proj:InterestRateRisk ;
+    rdfs:label "IRRBB"@en ;
+    dcterms:source "BCBS_IRRBB_2016_ba40d329#pg=24#t=list_item#n=13" .
+
+<http://my-project.com/instance/BCBS_IRRBB_2016_ba40d329/RISK_TYPE_IRRBB_ccaca31e> a my-proj:InterestRateRisk ;
+    rdfs:label "IRRBB"@en ;
+    dcterms:source "BCBS_IRRBB_2016_ba40d329#pg=27#t=list_item#n=6" .
+
+<http://my-project.com/instance/BCBS_IRRBB_2016_ba40d329/RISK_TYPE_IRRBB_cce0b9f4> a my-proj:InterestRateRisk ;
+    rdfs:label "IRRBB"@en ;
+    dcterms:source "BCBS_IRRBB_2016_ba40d329#pg=24#t=list_item#n=15" .
+
+<http://my-project.com/instance/BCBS_IRRBB_2016_ba40d329/RISK_TYPE_IRRBB_ce94c8e2> a my-proj:InterestRateRisk ;
+    rdfs:label "IRRBB"@en ;
+    dcterms:source "BCBS_IRRBB_2016_ba40d329#pg=39#t=list_item#n=5" .
+
+<http://my-project.com/instance/BCBS_IRRBB_2016_ba40d329/RISK_TYPE_IRRBB_cfa45c7d> a my-proj:InterestRateRisk ;
+    rdfs:label "IRRBB"@en ;
+    dcterms:source "BCBS_IRRBB_2016_ba40d329#pg=9#t=list_item#n=2" .
+
+<http://my-project.com/instance/BCBS_IRRBB_2016_ba40d329/RISK_TYPE_IRRBB_d3a0804e> a my-proj:InterestRateRisk ;
+    rdfs:label "IRRBB"@en ;
+    dcterms:source "BCBS_IRRBB_2016_ba40d329#pg=38#t=heading#n=1" .
+
+<http://my-project.com/instance/BCBS_IRRBB_2016_ba40d329/RISK_TYPE_IRRBB_d405a8d1> a my-proj:InterestRateRisk ;
+    rdfs:label "IRRBB"@en ;
+    dcterms:source "BCBS_IRRBB_2016_ba40d329#pg=8#t=list_item#n=6" .
+
+<http://my-project.com/instance/BCBS_IRRBB_2016_ba40d329/RISK_TYPE_IRRBB_d494edbb> a my-proj:InterestRateRisk ;
+    rdfs:label "IRRBB"@en ;
+    dcterms:source "BCBS_IRRBB_2016_ba40d329#pg=41#t=paragraph#n=1" .
+
+<http://my-project.com/instance/BCBS_IRRBB_2016_ba40d329/RISK_TYPE_IRRBB_d4a002f3> a my-proj:InterestRateRisk ;
+    rdfs:label "IRRBB"@en ;
+    dcterms:source "BCBS_IRRBB_2016_ba40d329#pg=8#t=list_item#n=3" .
+
+<http://my-project.com/instance/BCBS_IRRBB_2016_ba40d329/RISK_TYPE_IRRBB_d66a9f30> a my-proj:InterestRateRisk ;
+    rdfs:label "IRRBB"@en ;
+    dcterms:source "BCBS_IRRBB_2016_ba40d329#pg=9#t=list_item#n=3" .
+
+<http://my-project.com/instance/BCBS_IRRBB_2016_ba40d329/RISK_TYPE_IRRBB_d6fee1ea> a my-proj:InterestRateRisk ;
+    rdfs:label "IRRBB"@en ;
+    dcterms:source "BCBS_IRRBB_2016_ba40d329#pg=13#t=list_item#n=1" .
+
+<http://my-project.com/instance/BCBS_IRRBB_2016_ba40d329/RISK_TYPE_IRRBB_d791b427> a my-proj:InterestRateRisk ;
+    rdfs:label "IRRBB"@en ;
+    dcterms:source "BCBS_IRRBB_2016_ba40d329#pg=9#t=list_item#n=12" .
+
+<http://my-project.com/instance/BCBS_IRRBB_2016_ba40d329/RISK_TYPE_IRRBB_d8853f3c> a my-proj:InterestRateRisk ;
+    rdfs:label "IRRBB"@en ;
+    dcterms:source "BCBS_IRRBB_2016_ba40d329#pg=3#t=list_item#n=2" .
+
+<http://my-project.com/instance/BCBS_IRRBB_2016_ba40d329/RISK_TYPE_IRRBB_dacc99f0> a my-proj:InterestRateRisk ;
+    rdfs:label "IRRBB"@en ;
+    dcterms:source "BCBS_IRRBB_2016_ba40d329#pg=24#t=list_item#n=10" .
+
+<http://my-project.com/instance/BCBS_IRRBB_2016_ba40d329/RISK_TYPE_IRRBB_dd78b77e> a my-proj:InterestRateRisk ;
+    rdfs:label "IRRBB"@en ;
+    dcterms:source "BCBS_IRRBB_2016_ba40d329#pg=7#t=list_item#n=7" .
+
+<http://my-project.com/instance/BCBS_IRRBB_2016_ba40d329/RISK_TYPE_IRRBB_dd99f829> a my-proj:InterestRateRisk ;
+    rdfs:label "IRRBB"@en ;
+    dcterms:source "BCBS_IRRBB_2016_ba40d329#pg=24#t=list_item#n=11" .
+
+<http://my-project.com/instance/BCBS_IRRBB_2016_ba40d329/RISK_TYPE_IRRBB_deaa5a97> a my-proj:InterestRateRisk ;
+    rdfs:label "IRRBB"@en ;
+    dcterms:source "BCBS_IRRBB_2016_ba40d329#pg=35#t=paragraph#n=4" .
+
+<http://my-project.com/instance/BCBS_IRRBB_2016_ba40d329/RISK_TYPE_IRRBB_e28a1107> a my-proj:InterestRateRisk ;
+    rdfs:label "IRRBB"@en ;
+    dcterms:source "BCBS_IRRBB_2016_ba40d329#pg=14#t=list_item#n=2" .
+
+<http://my-project.com/instance/BCBS_IRRBB_2016_ba40d329/RISK_TYPE_IRRBB_e5dd5257> a my-proj:InterestRateRisk ;
+    rdfs:label "IRRBB"@en ;
+    dcterms:source "BCBS_IRRBB_2016_ba40d329#pg=39#t=paragraph#n=1" .
+
+<http://my-project.com/instance/BCBS_IRRBB_2016_ba40d329/RISK_TYPE_IRRBB_e745b5a9> a my-proj:InterestRateRisk ;
+    rdfs:label "IRRBB"@en ;
+    dcterms:source "BCBS_IRRBB_2016_ba40d329#pg=18#t=heading#n=1" .
+
+<http://my-project.com/instance/BCBS_IRRBB_2016_ba40d329/RISK_TYPE_IRRBB_ec628020> a my-proj:InterestRateRisk ;
+    rdfs:label "IRRBB"@en ;
+    dcterms:source "BCBS_IRRBB_2016_ba40d329#pg=26#t=list_item#n=5" .
+
+<http://my-project.com/instance/BCBS_IRRBB_2016_ba40d329/RISK_TYPE_IRRBB_ee0cdfcf> a my-proj:InterestRateRisk ;
+    rdfs:label "IRRBB"@en ;
+    dcterms:source "BCBS_IRRBB_2016_ba40d329#pg=36#t=list_item#n=3" .
+
+<http://my-project.com/instance/BCBS_IRRBB_2016_ba40d329/RISK_TYPE_IRRBB_ef0f0175> a my-proj:InterestRateRisk ;
+    rdfs:label "IRRBB"@en ;
+    dcterms:source "BCBS_IRRBB_2016_ba40d329#pg=25#t=heading#n=1" .
+
+<http://my-project.com/instance/BCBS_IRRBB_2016_ba40d329/RISK_TYPE_IRRBB_f0ad1e69> a my-proj:InterestRateRisk ;
+    rdfs:label "IRRBB"@en ;
+    dcterms:source "BCBS_IRRBB_2016_ba40d329#pg=24#t=list_item#n=17" .
+
+<http://my-project.com/instance/BCBS_IRRBB_2016_ba40d329/RISK_TYPE_IRRBB_f38e3368> a my-proj:InterestRateRisk ;
+    rdfs:label "IRRBB"@en ;
+    dcterms:source "BCBS_IRRBB_2016_ba40d329#pg=19#t=list_item#n=9" .
+
+<http://my-project.com/instance/BCBS_IRRBB_2016_ba40d329/RISK_TYPE_IRRBB_f3f84871> a my-proj:InterestRateRisk ;
+    rdfs:label "IRRBB"@en ;
+    dcterms:source "BCBS_IRRBB_2016_ba40d329#pg=12#t=list_item#n=2" .
+
+<http://my-project.com/instance/BCBS_IRRBB_2016_ba40d329/RISK_TYPE_IRRBB_f527616c> a my-proj:InterestRateRisk ;
+    rdfs:label "IRRBB"@en ;
+    dcterms:source "BCBS_IRRBB_2016_ba40d329#pg=22#t=list_item#n=16" .
+
+<http://my-project.com/instance/BCBS_IRRBB_2016_ba40d329/RISK_TYPE_IRRBB_f563d5d0> a my-proj:InterestRateRisk ;
+    rdfs:label "IRRBB"@en ;
+    dcterms:source "BCBS_IRRBB_2016_ba40d329#pg=8#t=heading#n=2" .
+
+<http://my-project.com/instance/BCBS_IRRBB_2016_ba40d329/RISK_TYPE_IRRBB_f63806f7> a my-proj:InterestRateRisk ;
+    rdfs:label "IRRBB"@en ;
+    dcterms:source "BCBS_IRRBB_2016_ba40d329#pg=44#t=list_item#n=1" .
+
+<http://my-project.com/instance/BCBS_IRRBB_2016_ba40d329/RISK_TYPE_IRRBB_f8dc369b> a my-proj:InterestRateRisk ;
+    rdfs:label "IRRBB"@en ;
+    dcterms:source "BCBS_IRRBB_2016_ba40d329#pg=11#t=list_item#n=4" .
+
+<http://my-project.com/instance/BCBS_IRRBB_2016_ba40d329/RISK_TYPE_IRRBB_fbdb461e> a my-proj:InterestRateRisk ;
+    rdfs:label "IRRBB"@en ;
+    dcterms:source "BCBS_IRRBB_2016_ba40d329#pg=18#t=list_item#n=11" .
+
+<http://my-project.com/instance/BCBS_IRRBB_2016_ba40d329/RISK_TYPE_IRRBB_fd8a6255> a my-proj:InterestRateRisk ;
+    rdfs:label "IRRBB"@en ;
+    dcterms:source "BCBS_IRRBB_2016_ba40d329#pg=7#t=list_item#n=4" .
+
+<http://my-project.com/instance/BCBS_IRRBB_2016_ba40d329/RISK_TYPE_IRRBB_fdf40bd5> a my-proj:InterestRateRisk ;
+    rdfs:label "IRRBB"@en ;
+    dcterms:source "BCBS_IRRBB_2016_ba40d329#pg=5#t=list_item#n=4" .
+
+<http://my-project.com/instance/BCBS_IRRBB_2016_ba40d329/RISK_TYPE_Interest_rate_risk_3d132abb> a my-proj:InterestRateRisk ;
+    rdfs:label "Interest rate risk"@en ;
+    dcterms:source "BCBS_IRRBB_2016_ba40d329#pg=36#t=heading#n=2" .
+
+<http://my-project.com/instance/BCBS_IRRBB_2016_ba40d329/RISK_TYPE_Interest_rate_risk_c5c2898b> a my-proj:InterestRateRisk ;
+    rdfs:label "Interest rate risk"@en ;
+    dcterms:source "BCBS_IRRBB_2016_ba40d329#pg=1#t=paragraph#n=1" .
+
+<http://my-project.com/instance/BCBS_IRRBB_2016_ba40d329/RISK_TYPE_Interest_rate_risk_in_the_banking_book_b8837d7c> a my-proj:InterestRateRisk ;
+    rdfs:label "Interest rate risk in the banking book"@en ;
+    dcterms:source "BCBS_IRRBB_2016_ba40d329#pg=5#t=list_item#n=1" .
+
+<http://my-project.com/instance/BCBS_IRRBB_2016_ba40d329/RISK_TYPE_Option_risk_5f58266a> a my-proj:InterestRateRisk ;
+    rdfs:label "Option risk"@en ;
+    dcterms:source "BCBS_IRRBB_2016_ba40d329#pg=39#t=list_item#n=2" .
+
+<http://my-project.com/instance/BCBS_IRRBB_2016_ba40d329/RISK_TYPE_Option_risk_dd78b77e> a my-proj:InterestRateRisk ;
+    rdfs:label "Option risk"@en ;
+    dcterms:source "BCBS_IRRBB_2016_ba40d329#pg=7#t=list_item#n=7" .
+
+<http://my-project.com/instance/BCBS_IRRBB_2016_ba40d329/RISK_TYPE_credit_risk_5ca7d002> a my-proj:InterestRateRisk ;
+    rdfs:label "credit risk"@en ;
+    dcterms:source "BCBS_IRRBB_2016_ba40d329#pg=13#t=list_item#n=6" .
+
+<http://my-project.com/instance/BCBS_IRRBB_2016_ba40d329/RISK_TYPE_credit_risk_645687b3> a my-proj:InterestRateRisk ;
+    rdfs:label "credit risk"@en ;
+    dcterms:source "BCBS_IRRBB_2016_ba40d329#pg=37#t=list_item#n=5" .
+
+<http://my-project.com/instance/BCBS_IRRBB_2016_ba40d329/RISK_TYPE_interest_rate_risk_31e53e69> a my-proj:InterestRateRisk ;
+    rdfs:label "interest rate risk"@en ;
+    dcterms:source "BCBS_IRRBB_2016_ba40d329#pg=7#t=list_item#n=9" .
+
+<http://my-project.com/instance/BCBS_IRRBB_2016_ba40d329/RISK_TYPE_interest_rate_risk_3b93c9ba> a my-proj:InterestRateRisk ;
+    rdfs:label "interest rate risk"@en ;
+    dcterms:source "BCBS_IRRBB_2016_ba40d329#pg=38#t=paragraph#n=3" .
+
+<http://my-project.com/instance/BCBS_IRRBB_2016_ba40d329/RISK_TYPE_interest_rate_risk_5d956388> a my-proj:InterestRateRisk ;
+    rdfs:label "interest rate risk"@en ;
+    dcterms:source "BCBS_IRRBB_2016_ba40d329#pg=16#t=list_item#n=5" .
+
+<http://my-project.com/instance/BCBS_IRRBB_2016_ba40d329/RISK_TYPE_interest_rate_risk_719d0f60> a my-proj:InterestRateRisk ;
+    rdfs:label "interest rate risk"@en ;
+    dcterms:source "BCBS_IRRBB_2016_ba40d329#pg=47#t=heading#n=1" .
+
+<http://my-project.com/instance/BCBS_IRRBB_2016_ba40d329/RISK_TYPE_interest_rate_risk_7d00eb95> a my-proj:InterestRateRisk ;
+    rdfs:label "interest rate risk"@en ;
+    dcterms:source "BCBS_IRRBB_2016_ba40d329#pg=37#t=list_item#n=7" .
+
+<http://my-project.com/instance/BCBS_IRRBB_2016_ba40d329/RISK_TYPE_interest_rate_risk_a7319b38> a my-proj:InterestRateRisk ;
+    rdfs:label "interest rate risk"@en ;
+    dcterms:source "BCBS_IRRBB_2016_ba40d329#pg=29#t=list_item#n=8" .
+
+<http://my-project.com/instance/BCBS_IRRBB_2016_ba40d329/RISK_TYPE_interest_rate_risk_b8837d7c> a my-proj:InterestRateRisk ;
+    rdfs:label "interest rate risk"@en ;
+    dcterms:source "BCBS_IRRBB_2016_ba40d329#pg=5#t=list_item#n=1" .
+
+<http://my-project.com/instance/BCBS_IRRBB_2016_ba40d329/RISK_TYPE_liquidity_risk_5ca7d002> a my-proj:InterestRateRisk ;
+    rdfs:label "liquidity risk"@en ;
+    dcterms:source "BCBS_IRRBB_2016_ba40d329#pg=13#t=list_item#n=6" .
+
+<http://my-project.com/instance/BCBS_IRRBB_2016_ba40d329/RISK_TYPE_market_risk_1565a172> a my-proj:InterestRateRisk ;
+    rdfs:label "market risk"@en ;
+    dcterms:source "BCBS_IRRBB_2016_ba40d329#pg=18#t=list_item#n=1" .
+
+<http://my-project.com/instance/BCBS_IRRBB_2016_ba40d329/RISK_TYPE_operational_risk_b6252876> a my-proj:InterestRateRisk ;
+    rdfs:label "operational risk"@en ;
+    dcterms:source "BCBS_IRRBB_2016_ba40d329#pg=9#t=list_item#n=8" .
+
+<http://my-project.com/instance/BCBS_IRRBB_2016_ba40d329/ROLE_governing_body_0ccd3dfc> a my-proj:Role ;
+    rdfs:label "governing body"@en ;
+    dcterms:source "BCBS_IRRBB_2016_ba40d329#pg=18#t=list_item#n=2" .
+
+<http://my-project.com/instance/BCBS_IRRBB_2016_ba40d329/ROLE_governing_body_1565a172> a my-proj:Role ;
+    rdfs:label "governing body"@en ;
+    dcterms:source "BCBS_IRRBB_2016_ba40d329#pg=18#t=list_item#n=1" .
+
+<http://my-project.com/instance/BCBS_IRRBB_2016_ba40d329/ROLE_governing_body_1ec5fda9> a my-proj:Role ;
+    rdfs:label "governing body"@en ;
+    dcterms:source "BCBS_IRRBB_2016_ba40d329#pg=8#t=list_item#n=5" .
+
+<http://my-project.com/instance/BCBS_IRRBB_2016_ba40d329/ROLE_governing_body_204d931d> a my-proj:Role ;
+    rdfs:label "governing body"@en ;
+    dcterms:source "BCBS_IRRBB_2016_ba40d329#pg=9#t=list_item#n=1" .
+
+<http://my-project.com/instance/BCBS_IRRBB_2016_ba40d329/ROLE_governing_body_24ddf347> a my-proj:Role ;
+    rdfs:label "governing body"@en ;
+    dcterms:source "BCBS_IRRBB_2016_ba40d329#pg=18#t=list_item#n=8" .
+
+<http://my-project.com/instance/BCBS_IRRBB_2016_ba40d329/ROLE_governing_body_405523fb> a my-proj:Role ;
+    rdfs:label "governing body"@en ;
+    dcterms:source "BCBS_IRRBB_2016_ba40d329#pg=12#t=list_item#n=5" .
+
+<http://my-project.com/instance/BCBS_IRRBB_2016_ba40d329/ROLE_governing_body_51badd52> a my-proj:Role ;
+    rdfs:label "governing body"@en ;
+    dcterms:source "BCBS_IRRBB_2016_ba40d329#pg=9#t=list_item#n=11" .
+
+<http://my-project.com/instance/BCBS_IRRBB_2016_ba40d329/ROLE_governing_body_5a56da33> a my-proj:Role ;
+    rdfs:label "governing body"@en ;
+    dcterms:source "BCBS_IRRBB_2016_ba40d329#pg=11#t=list_item#n=2" .
+
+<http://my-project.com/instance/BCBS_IRRBB_2016_ba40d329/ROLE_governing_body_5e15a773> a my-proj:Role ;
+    rdfs:label "governing body"@en ;
+    dcterms:source "BCBS_IRRBB_2016_ba40d329#pg=17#t=list_item#n=6" .
+
+<http://my-project.com/instance/BCBS_IRRBB_2016_ba40d329/ROLE_governing_body_96066a8c> a my-proj:Role ;
+    rdfs:label "governing body"@en ;
+    dcterms:source "BCBS_IRRBB_2016_ba40d329#pg=9#t=list_item#n=7" .
+
+<http://my-project.com/instance/BCBS_IRRBB_2016_ba40d329/ROLE_governing_body_976e0bed> a my-proj:Role ;
+    rdfs:label "governing body"@en ;
+    dcterms:source "BCBS_IRRBB_2016_ba40d329#pg=22#t=heading#n=1" .
+
+<http://my-project.com/instance/BCBS_IRRBB_2016_ba40d329/ROLE_governing_body_9a90261b> a my-proj:Role ;
+    rdfs:label "governing body"@en ;
+    dcterms:source "BCBS_IRRBB_2016_ba40d329#pg=16#t=list_item#n=1" .
+
+<http://my-project.com/instance/BCBS_IRRBB_2016_ba40d329/ROLE_governing_body_9f0aaa2d> a my-proj:Role ;
+    rdfs:label "governing body"@en ;
+    dcterms:source "BCBS_IRRBB_2016_ba40d329#pg=24#t=list_item#n=3" .
+
+<http://my-project.com/instance/BCBS_IRRBB_2016_ba40d329/ROLE_governing_body_a115ca55> a my-proj:Role ;
+    rdfs:label "governing body"@en ;
+    dcterms:source "BCBS_IRRBB_2016_ba40d329#pg=9#t=list_item#n=10" .
+
+<http://my-project.com/instance/BCBS_IRRBB_2016_ba40d329/ROLE_governing_body_aa5cd7da> a my-proj:Role ;
+    rdfs:label "governing body"@en ;
+    dcterms:source "BCBS_IRRBB_2016_ba40d329#pg=23#t=list_item#n=11" .
+
+<http://my-project.com/instance/BCBS_IRRBB_2016_ba40d329/ROLE_governing_body_aeaf0b23> a my-proj:Role ;
+    rdfs:label "governing body"@en ;
+    dcterms:source "BCBS_IRRBB_2016_ba40d329#pg=17#t=list_item#n=7" .
+
+<http://my-project.com/instance/BCBS_IRRBB_2016_ba40d329/ROLE_governing_body_af79a306> a my-proj:Role ;
+    rdfs:label "governing body"@en ;
+    dcterms:source "BCBS_IRRBB_2016_ba40d329#pg=11#t=list_item#n=3" .
+
+<http://my-project.com/instance/BCBS_IRRBB_2016_ba40d329/ROLE_governing_body_b6252876> a my-proj:Role ;
+    rdfs:label "governing body"@en ;
+    dcterms:source "BCBS_IRRBB_2016_ba40d329#pg=9#t=list_item#n=8" .
+
+<http://my-project.com/instance/BCBS_IRRBB_2016_ba40d329/ROLE_governing_body_d405a8d1> a my-proj:Role ;
+    rdfs:label "governing body"@en ;
+    dcterms:source "BCBS_IRRBB_2016_ba40d329#pg=8#t=list_item#n=6" .
+
+<http://my-project.com/instance/BCBS_IRRBB_2016_ba40d329/ROLE_governing_body_d791b427> a my-proj:Role ;
+    rdfs:label "governing body"@en ;
+    dcterms:source "BCBS_IRRBB_2016_ba40d329#pg=9#t=list_item#n=12" .
+

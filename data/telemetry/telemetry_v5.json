@@ -1,0 +1,58 @@
+{
+  "entity_counts": {
+    "ORG": 158,
+    "RISK_TYPE": 250,
+    "DATE": 61,
+    "CARDINAL": 453,
+    "FINANCIAL_PRODUCT": 79,
+    "REGULATION_NAME": 4,
+    "METRIC": 50,
+    "REGULATION_FRAMEWORK": 7,
+    "PRODUCT": 17,
+    "REGULATOR": 13,
+    "ORDINAL": 12,
+    "REGULATION_DETAIL": 18,
+    "NORP": 6,
+    "INSTITUTION_TYPE": 27,
+    "PERCENT": 7,
+    "CAPITAL_TIER": 13,
+    "LAW": 10,
+    "ROLE": 28,
+    "COMMITTEE": 5,
+    "PROCESS": 5,
+    "FAC": 2,
+    "FINANCIAL_CONCEPT": 18,
+    "PERSON": 9,
+    "LOC": 4,
+    "EVENT": 15,
+    "GPE": 12,
+    "TIME": 3,
+    "MONEY": 7,
+    "QUANTITY": 1
+  },
+  "entity_mapped_counts": {
+    "RISK_TYPE": 250,
+    "FINANCIAL_PRODUCT": 79,
+    "REGULATION_NAME": 4,
+    "REGULATOR": 13,
+    "CAPITAL_TIER": 13
+  },
+  "predicate_raw_counts": {
+    "spread": 2,
+    "should assess": 1,
+    "behave": 1,
+    "\ud835\udc5b\ud835\udc5b\ud835\udc5b\ud835\udc5b\ud835\udc5b\ud835\udc5b\ud835\udc5b\ud835\udc5b\ud835\udc5b\ud835\udc5b\ud835\udc5b\ud835\udc5b\ud835\udc5b\ud835\udc5b\ud835\udc5b\ud835\udc5b": 1
+  },
+  "predicate_canonical_counts": {
+    "spread": 2,
+    "assess": 1,
+    "behave": 1,
+    "": 1
+  },
+  "predicate_mapped_counts": {
+    "https://w3id.org/my-project/ontology/spreads": 2,
+    "https://w3id.org/my-project/ontology/assesses": 1,
+    "https://w3id.org/my-project/ontology/exhibitsBehavior": 1
+  },
+  "skipped_relations": 0
+}

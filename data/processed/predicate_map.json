@@ -1,0 +1,16 @@
+{
+  "define": "https://spec.edmcouncil.org/fibo/ontology/FND/Relations/Relations/defines",
+  "publish": "http://purl.org/dc/terms/issued",
+  "issue": "https://spec.edmcouncil.org/fibo/ontology/FND/Relations/Relations/issues",
+  "require": "https://spec.edmcouncil.org/fibo/ontology/FND/Relations/Relations/requires",
+  "apply": "https://spec.edmcouncil.org/fibo/ontology/FND/Relations/Relations/appliesTo",
+  "govern": "https://spec.edmcouncil.org/fibo/ontology/FND/Relations/Relations/governs",
+  "refer": "https://spec.edmcouncil.org/fibo/ontology/FND/Relations/Relations/references",
+  "apply::p(to)": "https://spec.edmcouncil.org/fibo/ontology/FND/Relations/Relations/appliesTo",
+  "refer::p(to)": "https://spec.edmcouncil.org/fibo/ontology/FND/Relations/Relations/references",
+  "arise::p(from)": "https://spec.edmcouncil.org/fibo/ontology/FND/Relations/Relations/isEvidencedBy",
+  "expose::p(to)": "https://spec.edmcouncil.org/fibo/ontology/FND/Relations/Relations/isExposedTo",
+  "assess": "https://w3id.org/my-project/ontology/assesses",
+  "behave": "https://w3id.org/my-project/ontology/exhibitsBehavior",
+  "spread": "https://w3id.org/my-project/ontology/spreads"
+}

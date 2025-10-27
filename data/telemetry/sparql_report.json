@@ -1,0 +1,84 @@
+{
+  "mapped_edges": 6121,
+  "instances_missing_provenance": 0,
+  "top_properties": [
+    {
+      "property": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+      "count": 1295
+    },
+    {
+      "property": "http://purl.org/dc/terms/source",
+      "count": 1294
+    },
+    {
+      "property": "https://w3id.org/my-project/ontology/extractionId",
+      "count": 1294
+    },
+    {
+      "property": "http://www.w3.org/2000/01/rdf-schema#label",
+      "count": 1294
+    },
+    {
+      "property": "https://w3id.org/my-project/ontology/unmappedLabel",
+      "count": 935
+    },
+    {
+      "property": "https://w3id.org/my-project/ontology/spreads",
+      "count": 2
+    },
+    {
+      "property": "https://w3id.org/my-project/ontology/exhibitsBehavior",
+      "count": 1
+    },
+    {
+      "property": "https://w3id.org/my-project/ontology/canonicalPredicate",
+      "count": 1
+    },
+    {
+      "property": "http://www.w3.org/1999/02/22-rdf-syntax-ns#subject",
+      "count": 1
+    },
+    {
+      "property": "https://w3id.org/my-project/ontology/assesses",
+      "count": 1
+    },
+    {
+      "property": "https://w3id.org/my-project/ontology/rawPredicateText",
+      "count": 1
+    },
+    {
+      "property": "http://www.w3.org/1999/02/22-rdf-syntax-ns#object",
+      "count": 1
+    },
+    {
+      "property": "http://www.w3.org/1999/02/22-rdf-syntax-ns#predicate",
+      "count": 1
+    },
+    {
+      "property": "https://w3id.org/my-project/ontology/relatedToRaw",
+      "count": 1
+    }
+  ],
+  "custom_property_samples": [
+    {
+      "p": "https://w3id.org/my-project/ontology/assesses",
+      "s": "https://w3id.org/my-project/id/ent_beea72d0d3dcae47",
+      "o": "https://w3id.org/my-project/id/ent_26867708df541c10"
+    },
+    {
+      "p": "https://w3id.org/my-project/ontology/exhibitsBehavior",
+      "s": "https://w3id.org/my-project/id/ent_87dffc4985176eb3",
+      "o": "https://w3id.org/my-project/id/ent_c82b1642845599a9"
+    },
+    {
+      "p": "https://w3id.org/my-project/ontology/spreads",
+      "s": "https://w3id.org/my-project/id/ent_88fd100e566e0734",
+      "o": "https://w3id.org/my-project/id/ent_3f8af6e750cd78e1"
+    },
+    {
+      "p": "https://w3id.org/my-project/ontology/spreads",
+      "s": "https://w3id.org/my-project/id/ent_cce1c9504bfec5b5",
+      "o": "https://w3id.org/my-project/id/ent_495b6dc9bcc6bdab"
+    }
+  ]
+}

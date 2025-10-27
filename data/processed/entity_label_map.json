@@ -1,0 +1,8 @@
+{
+  "RISK_TYPE": "https://spec.edmcouncil.org/fibo/ontology/FND/Risk/FinancialRisk",
+  "REGULATOR": "https://spec.edmcouncil.org/fibo/ontology/BE/GovernmentEntities/RegulatoryAgency",
+  "REGULATION_NAME": "https://spec.edmcouncil.org/fibo/ontology/FND/Agreements/Contracts/Contract",
+  "CAPITAL_TIER": "https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/CurrencyAmount",
+  "FINANCIAL_PRODUCT": "https://spec.edmcouncil.org/fibo/ontology/FND/ProductsAndServices/FinancialProduct",
+  "FINANCIAL_INSTRUMENT": "https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/FinancialInstruments/FinancialInstrument"
+}

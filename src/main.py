@@ -4,12 +4,10 @@ import typer
 from typing_extensions import Annotated
 from pathlib import Path
 
-# --- CORRECTED IMPORT ---
-# Import the actual pipeline runner function from emit.py
-from src.pipeline.emit import process_pdf_to_jsonl
-
-# Import the NLP Typer app from the new module
-from src.pipeline.nlp_extraction import nlp_app
+# Import pipeline runner functions
+from src.pipeline.emit import process_pdf_to_jsonl # Corrected PDF parser import
+from src.pipeline.nlp_extraction import nlp_app # Import NLP app
+from src.pipeline.graph_population import graph_app # Import Graph app
 
 # Main Typer application
 app = typer.Typer(help="The main control panel for the Regulatory Knowledge Graph pipeline.")
@@ -36,28 +34,25 @@ def run_pdf_parser(
     if not pdf_path.exists():
         print(f"Error: PDF file not found at {pdf_path}")
         raise typer.Exit(code=1)
-
     if not out_dir.exists():
         print(f"Creating output directory: {out_dir}")
         out_dir.mkdir(parents=True, exist_ok=True)
     elif not out_dir.is_dir():
         print(f"Error: Output path {out_dir} exists but is not a directory.")
         raise typer.Exit(code=1)
-
     print(f"Starting PDF parsing for: {pdf_path}")
     print(f"Output directory: {out_dir}")
-
-    # --- CORRECTED FUNCTION CALL ---
-    # Call the actual main pipeline function from emit.py
-    # Note: process_pdf_to_jsonl takes paths as strings
-    process_pdf_to_jsonl(pdf_path=str(pdf_path), out_dir=str(out_dir))
-
+    process_pdf_to_jsonl(pdf_path=str(pdf_path), out_dir=str(out_dir)) # Corrected call
     print("\nPDF parsing complete.")
     print(f"Output files saved in: {out_dir}")
 
-# --- Add the NLP Subcommand ---
+# --- Add Subcommands ---
 
+# Add the NLP commands (e.g., nlp extract-knowledge)
 app.add_typer(nlp_app, name="nlp")
+
+# Add the Graph commands (e.g., graph populate)
+app.add_typer(graph_app, name="graph")
 
 
 # --- Entry Point ---

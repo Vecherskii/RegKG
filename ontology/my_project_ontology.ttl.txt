@@ -1,0 +1,129 @@
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+@prefix fibo-fnd:     <https://spec.edmcouncil.org/fibo/ontology/FND/> .
+@prefix fibo-rel:     <https://spec.edmcouncil.org/fibo/ontology/FND/Relations/Relations/> .
+@prefix my:           <https://w3id.org/my-project/ontology/> .
+
+#################################################################
+# Ontology header
+#################################################################
+
+<https://w3id.org/my-project/ontology>
+  a owl:Ontology ;
+  dcterms:title "My Project Ontology (RegKG – bootstrap)" ;
+  dcterms:description "Custom properties and classes used to bootstrap the KG before full FIBO alignment." ;
+  dcterms:creator "RegKG pipeline" ;
+  owl:versionInfo "0.1.0" .
+
+#################################################################
+# Helper classes used by the pipeline
+#################################################################
+
+my:PendingEntity a owl:Class ;
+  rdfs:label "Pending Entity" ;
+  rdfs:comment "Placeholder class for instances created when an entity label is not yet mapped to a FIBO class." .
+
+my:RawRelation a owl:Class ;
+  rdfs:label "Raw Relation Reification" ;
+  rdfs:comment "A node that carries the raw predicate text and canonical key when a relation could not be mapped to a specific property." .
+
+#################################################################
+# Data properties used by the pipeline
+#################################################################
+
+my:extractionId a owl:DatatypeProperty ;
+  rdfs:label "extraction id" ;
+  rdfs:comment "UUID of the source extraction record from the NLP stage." ;
+  rdfs:range xsd:string .
+
+my:unmappedLabel a owl:DatatypeProperty ;
+  rdfs:label "unmapped label" ;
+  rdfs:comment "Original entity label when no ontology class mapping existed." ;
+  rdfs:range xsd:string .
+
+my:rawPredicateText a owl:DatatypeProperty ;
+  rdfs:label "raw predicate text" ;
+  rdfs:comment "Original verb phrase string captured by NLP." ;
+  rdfs:range xsd:string .
+
+my:canonicalPredicate a owl:DatatypeProperty ;
+  rdfs:label "canonical predicate key" ;
+  rdfs:comment "Canonicalized predicate key used for mapping." ;
+  rdfs:range xsd:string .
+
+#################################################################
+# Object properties – provisional (aligned later)
+#################################################################
+
+# Provisional: these are set up as subPropertyOf owl:topObjectProperty.
+# We will refine alignment to FIBO once we converge on meaning in the corpus.
+
+my:assesses a owl:ObjectProperty ;
+  rdfs:label "assesses" ;
+  rdfs:comment "Subject assesses object (e.g., a regulator assesses a risk or process)." ;
+  rdfs:subPropertyOf owl:topObjectProperty .
+
+my:exhibitsBehavior a owl:ObjectProperty ;
+  rdfs:label "exhibits behavior" ;
+  rdfs:comment "Subject exhibits behavior described by object (used for textual behavior descriptions)." ;
+  rdfs:subPropertyOf owl:topObjectProperty .
+
+my:spreads a owl:ObjectProperty ;
+  rdfs:label "spreads" ;
+  rdfs:comment "Subject spreads to object (used for propagation-style language in documents)." ;
+  rdfs:subPropertyOf owl:topObjectProperty .
+
+# Fallback property when a predicate is unmapped – used together with my:RawRelation reification.
+my:relatedToRaw a owl:ObjectProperty ;
+  rdfs:label "related to (raw)" ;
+  rdfs:comment "Generic relation used when the predicate is not yet mapped; provenance is attached via my:RawRelation." ;
+  rdfs:subPropertyOf owl:topObjectProperty .
+
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+
+@prefix fibo-fnd: <https://spec.edmcouncil.org/fibo/ontology/FND/> .
+@prefix fibo-rel: <https://spec.edmcouncil.org/fibo/ontology/FND/Relations/Relations/> .
+@prefix fibo-be:  <https://spec.edmcouncil.org/fibo/ontology/BE/> .
+@prefix my:       <https://w3id.org/my-project/ontology/> .
+
+#################################################################
+# Object properties (with conservative alignment)
+#################################################################
+
+my:assesses a owl:ObjectProperty ;
+  rdfs:label "assesses" ;
+  rdfs:comment "A supervisory/oversight actor assesses a risk, process, or exposure." ;
+  rdfs:subPropertyOf fibo-rel:governs ;
+  rdfs:domain fibo-be:GovernmentEntities/RegulatoryAgency ;
+  rdfs:range  fibo-fnd:Risk/FinancialRisk .
+
+my:spreads a owl:ObjectProperty ;
+  rdfs:label "spreads" ;
+  rdfs:comment "A risk spreads to a target context (e.g., to the banking book). Aligned conservatively." ;
+  rdfs:subPropertyOf fibo-rel:appliesTo .
+
+# Keep as an object property for non-numeric objects; we'll route numeric
+# cases to a datatype property declared below.
+my:exhibitsBehavior a owl:ObjectProperty ;
+  rdfs:label "exhibits behavior" ;
+  rdfs:comment "Subject exhibits a behavior concept (non-numeric object)." ;
+  rdfs:subPropertyOf owl:topObjectProperty .
+
+#################################################################
+# Datatype property for numeric behavior parameters
+#################################################################
+
+my:hasBehaviorParameter a owl:DatatypeProperty ;
+  rdfs:label "has behavior parameter" ;
+  rdfs:comment "Numeric parameter associated with an entity's behavior (e.g., rate or elasticity)." ;
+  rdfs:range xsd:decimal .
+
